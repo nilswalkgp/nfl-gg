@@ -1,0 +1,6 @@
+title = "nfl-gg"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+pages = [['about', 'about']]

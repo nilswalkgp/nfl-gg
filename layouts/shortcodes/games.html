@@ -1,0 +1,48 @@
+{{- $title := .Get "title" | default "" -}}
+{{- $closed := eq (.Get "closed") "true" | default false -}}
+
+{{ $data := dict }}
+{{ $path := .Get "data_source" }}
+{{ with $.Page.Resources.Get $path }}
+  {{ with . | transform.Unmarshal }}
+    {{ $data = . }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get page resource %q" $path }}
+{{ end }}
+
+{{ $bg := "bg-zinc-200" }}
+
+{{ range $week := $data.weeks }}
+  {{- $open := eq $data.current_week $week.week | default false -}}
+  <details class="p-2 justify-center outline max-w-sm mx-auto rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500" {{ if $open }}open{{ end }}>
+    <summary><strong>Week {{ $week.week }}</strong></summary>
+  {{ range $day := $week.days}}
+    {{ $day.day }}
+    {{ range $game := $day.games}}
+      {{ if eq $game.status "preferred" }}
+        {{ $bg = "bg-green-200" }}
+      {{ else if eq $game.status "secondary" }}
+        {{ $bg = "bg-green-200" }}
+      {{ else if eq $game.status "discarded_score" }}
+        {{ $bg = "bg-red-300" }}
+      {{ else if eq $game.status "discarded_differential" }}
+        {{ $bg = "bg-red-300" }}
+      {{ else if eq $game.status "discarded_rank" }}
+        {{ $bg = "bg-red-300" }}
+      {{ else if eq $game.status "no_data" }}
+        {{ $bg = "bg-zinc-200" }}
+      {{ end }}
+      <div class="p-2 justify-center outline max-w-sm mx-auto {{ $bg }} rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500">
+        {{ $game.away_team}} @ {{ $game.home_team }} {{ $game.game_time}}
+      </div>
+    {{ end}}
+  {{ end }}
+  </details>
+{{end}}
+
+
+
+
+
+

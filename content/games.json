@@ -1,0 +1,2008 @@
+{
+    "year": 2024,
+    "current_week": 3,
+    "weeks": [
+        {
+            "week": 1,
+            "days": [
+                {
+                    "day": "Thursday, September 05",
+                    "games": [
+                        {
+                            "home_team": "KC",
+                            "away_team": "BAL",
+                            "game_time": "05:20 PM",
+                            "status": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "day": "Friday, September 06",
+                    "games": [
+                        {
+                            "home_team": "PHI",
+                            "away_team": "GB",
+                            "game_time": "05:15 PM",
+                            "status": "preferred"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, September 08",
+                    "games": [
+                        {
+                            "home_team": "ATL",
+                            "away_team": "PIT",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "BUF",
+                            "away_team": "ARI",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "CHI",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "NE",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "MIA",
+                            "away_team": "JAX",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "CAR",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "MIN",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "LV",
+                            "game_time": "01:05 PM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "DEN",
+                            "game_time": "01:05 PM",
+                            "status": "secondary"
+                        },
+                        {
+                            "home_team": "CLE",
+                            "away_team": "DAL",
+                            "game_time": "01:25 PM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "WAS",
+                            "game_time": "01:25 PM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "LA",
+                            "game_time": "05:20 PM",
+                            "status": "preferred"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, September 09",
+                    "games": [
+                        {
+                            "home_team": "SF",
+                            "away_team": "NYJ",
+                            "game_time": "05:15 PM",
+                            "status": "secondary"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 2,
+            "days": [
+                {
+                    "day": "Thursday, September 12",
+                    "games": [
+                        {
+                            "home_team": "MIA",
+                            "away_team": "BUF",
+                            "game_time": "05:15 PM",
+                            "status": "discarded_differential"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, September 15",
+                    "games": [
+                        {
+                            "home_team": "BAL",
+                            "away_team": "LV",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "CAR",
+                            "away_team": "LAC",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "NO",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "TB",
+                            "game_time": "10:00 AM",
+                            "status": "secondary"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "CLE",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "SF",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_rank"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "SEA",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "NYJ",
+                            "game_time": "10:00 AM",
+                            "status": "secondary"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "NYG",
+                            "game_time": "10:00 AM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "LA",
+                            "game_time": "01:05 PM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "PIT",
+                            "game_time": "01:25 PM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "KC",
+                            "away_team": "CIN",
+                            "game_time": "01:25 PM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "CHI",
+                            "game_time": "05:20 PM",
+                            "status": "discarded_score"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, September 16",
+                    "games": [
+                        {
+                            "home_team": "PHI",
+                            "away_team": "ATL",
+                            "game_time": "05:15 PM",
+                            "status": "preferred"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 3,
+            "days": [
+                {
+                    "day": "Thursday, September 19",
+                    "games": [
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "NE",
+                            "game_time": "05:15 PM",
+                            "status": "discarded_score"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, September 22",
+                    "games": [
+                        {
+                            "home_team": "CLE",
+                            "away_team": "NYG",
+                            "game_time": "10:00 AM",
+                            "status": "secondary"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "CHI",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_rank"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "PHI",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "PIT",
+                            "away_team": "LAC",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "DEN",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "GB",
+                            "game_time": "10:00 AM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "CAR",
+                            "game_time": "01:05 PM",
+                            "status": "secondary"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "MIA",
+                            "game_time": "01:05 PM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "DET",
+                            "game_time": "01:25 PM",
+                            "status": "discarded_score"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "BAL",
+                            "game_time": "01:25 PM",
+                            "status": "secondary"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "SF",
+                            "game_time": "01:25 PM",
+                            "status": "preferred"
+                        },
+                        {
+                            "home_team": "ATL",
+                            "away_team": "KC",
+                            "game_time": "05:20 PM",
+                            "status": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, September 23",
+                    "games": [
+                        {
+                            "home_team": "BUF",
+                            "away_team": "JAX",
+                            "game_time": "04:30 PM",
+                            "status": "discarded_differential"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "WAS",
+                            "game_time": "05:15 PM",
+                            "status": "preferred"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 4,
+            "days": [
+                {
+                    "day": "Thursday, September 26",
+                    "games": [
+                        {
+                            "home_team": "NYG",
+                            "away_team": "DAL",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, September 29",
+                    "games": [
+                        {
+                            "home_team": "ATL",
+                            "away_team": "NO",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CAR",
+                            "away_team": "CIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CHI",
+                            "away_team": "LA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "MIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "JAX",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "PIT",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "DEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "PHI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "WAS",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SF",
+                            "away_team": "NE",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "KC",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "CLE",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BAL",
+                            "away_team": "BUF",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, September 30",
+                    "games": [
+                        {
+                            "home_team": "MIA",
+                            "away_team": "TEN",
+                            "game_time": "04:30 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "SEA",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 5,
+            "days": [
+                {
+                    "day": "Thursday, October 03",
+                    "games": [
+                        {
+                            "home_team": "ATL",
+                            "away_team": "TB",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, October 06",
+                    "games": [
+                        {
+                            "home_team": "MIN",
+                            "away_team": "NYJ",
+                            "game_time": "06:30 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CHI",
+                            "away_team": "CAR",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "BAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "BUF",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "MIA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "CLE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "LV",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SF",
+                            "away_team": "ARI",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "GB",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "NYG",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PIT",
+                            "away_team": "DAL",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, October 07",
+                    "games": [
+                        {
+                            "home_team": "KC",
+                            "away_team": "NO",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 6,
+            "days": [
+                {
+                    "day": "Thursday, October 10",
+                    "games": [
+                        {
+                            "home_team": "SEA",
+                            "away_team": "SF",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, October 13",
+                    "games": [
+                        {
+                            "home_team": "CHI",
+                            "away_team": "JAX",
+                            "game_time": "06:30 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BAL",
+                            "away_team": "WAS",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "ARI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "TB",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PHI",
+                            "away_team": "CLE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "LAC",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "PIT",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CAR",
+                            "away_team": "ATL",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "DET",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "CIN",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, October 14",
+                    "games": [
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "BUF",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 7,
+            "days": [
+                {
+                    "day": "Thursday, October 17",
+                    "games": [
+                        {
+                            "home_team": "NO",
+                            "away_team": "DEN",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, October 20",
+                    "games": [
+                        {
+                            "home_team": "JAX",
+                            "away_team": "NE",
+                            "game_time": "06:30 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ATL",
+                            "away_team": "SEA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BUF",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CLE",
+                            "away_team": "CIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "MIA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "DET",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "PHI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "LV",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "CAR",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SF",
+                            "away_team": "KC",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PIT",
+                            "away_team": "NYJ",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, October 21",
+                    "games": [
+                        {
+                            "home_team": "TB",
+                            "away_team": "BAL",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "LAC",
+                            "game_time": "06:00 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 8,
+            "days": [
+                {
+                    "day": "Thursday, October 24",
+                    "games": [
+                        {
+                            "home_team": "LA",
+                            "away_team": "MIN",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, October 27",
+                    "games": [
+                        {
+                            "home_team": "CLE",
+                            "away_team": "BAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "GB",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIA",
+                            "away_team": "ARI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "NYJ",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "ATL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "CHI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "NO",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "BUF",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "PHI",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "CAR",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "KC",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SF",
+                            "away_team": "DAL",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, October 28",
+                    "games": [
+                        {
+                            "home_team": "PIT",
+                            "away_team": "NYG",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 9,
+            "days": [
+                {
+                    "day": "Thursday, October 31",
+                    "games": [
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "HOU",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, November 03",
+                    "games": [
+                        {
+                            "home_team": "ATL",
+                            "away_team": "DAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BAL",
+                            "away_team": "DEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BUF",
+                            "away_team": "MIA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CAR",
+                            "away_team": "NO",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "LV",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CLE",
+                            "away_team": "LAC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "WAS",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "NE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "CHI",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "DET",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "LA",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PHI",
+                            "away_team": "JAX",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, November 04",
+                    "games": [
+                        {
+                            "home_team": "KC",
+                            "away_team": "TB",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 10,
+            "days": [
+                {
+                    "day": "Thursday, November 07",
+                    "games": [
+                        {
+                            "home_team": "BAL",
+                            "away_team": "CIN",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, November 10",
+                    "games": [
+                        {
+                            "home_team": "CAR",
+                            "away_team": "NYG",
+                            "game_time": "06:30 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CHI",
+                            "away_team": "NE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "BUF",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "MIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "KC",
+                            "away_team": "DEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "ATL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "SF",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "PIT",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "TEN",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "NYJ",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "PHI",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "DET",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, November 11",
+                    "games": [
+                        {
+                            "home_team": "LA",
+                            "away_team": "MIA",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 11,
+            "days": [
+                {
+                    "day": "Thursday, November 14",
+                    "games": [
+                        {
+                            "home_team": "PHI",
+                            "away_team": "WAS",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, November 17",
+                    "games": [
+                        {
+                            "home_team": "CHI",
+                            "away_team": "GB",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "JAX",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIA",
+                            "away_team": "LV",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "LA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "CLE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PIT",
+                            "away_team": "BAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "MIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "ATL",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SF",
+                            "away_team": "SEA",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BUF",
+                            "away_team": "KC",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "CIN",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "IND",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, November 18",
+                    "games": [
+                        {
+                            "home_team": "DAL",
+                            "away_team": "HOU",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 12,
+            "days": [
+                {
+                    "day": "Thursday, November 21",
+                    "games": [
+                        {
+                            "home_team": "CLE",
+                            "away_team": "PIT",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, November 24",
+                    "games": [
+                        {
+                            "home_team": "CAR",
+                            "away_team": "KC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CHI",
+                            "away_team": "MIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "DET",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIA",
+                            "away_team": "NE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "TB",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "DAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "DEN",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "SF",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "ARI",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "PHI",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, November 25",
+                    "games": [
+                        {
+                            "home_team": "LAC",
+                            "away_team": "BAL",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 13,
+            "days": [
+                {
+                    "day": "Thursday, November 28",
+                    "games": [
+                        {
+                            "home_team": "DET",
+                            "away_team": "CHI",
+                            "game_time": "09:30 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "NYG",
+                            "game_time": "01:30 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "MIA",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Friday, November 29",
+                    "games": [
+                        {
+                            "home_team": "KC",
+                            "away_team": "LV",
+                            "game_time": "12:00 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, December 01",
+                    "games": [
+                        {
+                            "home_team": "ATL",
+                            "away_team": "LAC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "PIT",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "ARI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "SEA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CAR",
+                            "away_team": "TB",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "LA",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BAL",
+                            "away_team": "PHI",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BUF",
+                            "away_team": "SF",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, December 02",
+                    "games": [
+                        {
+                            "home_team": "DEN",
+                            "away_team": "CLE",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 14,
+            "days": [
+                {
+                    "day": "Thursday, December 05",
+                    "games": [
+                        {
+                            "home_team": "DET",
+                            "away_team": "GB",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, December 08",
+                    "games": [
+                        {
+                            "home_team": "MIA",
+                            "away_team": "NYJ",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "ATL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "NO",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PHI",
+                            "away_team": "CAR",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PIT",
+                            "away_team": "CLE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "LV",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "JAX",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "SEA",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "BUF",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SF",
+                            "away_team": "CHI",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "KC",
+                            "away_team": "LAC",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, December 09",
+                    "games": [
+                        {
+                            "home_team": "DAL",
+                            "away_team": "CIN",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 15,
+            "days": [
+                {
+                    "day": "Thursday, December 12",
+                    "games": [
+                        {
+                            "home_team": "SF",
+                            "away_team": "LA",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, December 15",
+                    "games": [
+                        {
+                            "home_team": "CAR",
+                            "away_team": "DAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CLE",
+                            "away_team": "KC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "MIA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "NYJ",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "WAS",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "BAL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "CIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ARI",
+                            "away_team": "NE",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "IND",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "BUF",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "TB",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PHI",
+                            "away_team": "PIT",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "GB",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, December 16",
+                    "games": [
+                        {
+                            "home_team": "MIN",
+                            "away_team": "CHI",
+                            "game_time": "05:00 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "ATL",
+                            "game_time": "05:30 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 16,
+            "days": [
+                {
+                    "day": "Thursday, December 19",
+                    "games": [
+                        {
+                            "home_team": "CIN",
+                            "away_team": "CLE",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Saturday, December 21",
+                    "games": [
+                        {
+                            "home_team": "KC",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BAL",
+                            "away_team": "PIT",
+                            "game_time": "01:30 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, December 22",
+                    "games": [
+                        {
+                            "home_team": "ATL",
+                            "away_team": "NYG",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BUF",
+                            "away_team": "NE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CAR",
+                            "away_team": "ARI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CHI",
+                            "away_team": "DET",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "LA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "PHI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LAC",
+                            "away_team": "DEN",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "SEA",
+                            "away_team": "MIN",
+                            "game_time": "01:05 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "JAX",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIA",
+                            "away_team": "SF",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "TB",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, December 23",
+                    "games": [
+                        {
+                            "home_team": "GB",
+                            "away_team": "NO",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 17,
+            "days": [
+                {
+                    "day": "Wednesday, December 25",
+                    "games": [
+                        {
+                            "home_team": "PIT",
+                            "away_team": "KC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "HOU",
+                            "away_team": "BAL",
+                            "game_time": "01:30 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday, December 26",
+                    "games": [
+                        {
+                            "home_team": "CHI",
+                            "away_team": "SEA",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday, December 29",
+                    "games": [
+                        {
+                            "home_team": "BUF",
+                            "away_team": "NYJ",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CIN",
+                            "away_team": "DEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "JAX",
+                            "away_team": "TEN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "ARI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "MIN",
+                            "away_team": "GB",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "LAC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NO",
+                            "away_team": "LV",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYG",
+                            "away_team": "IND",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "CAR",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "ATL",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PHI",
+                            "away_team": "DAL",
+                            "game_time": "01:25 PM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "CLE",
+                            "away_team": "MIA",
+                            "game_time": "05:20 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday, December 30",
+                    "games": [
+                        {
+                            "home_team": "SF",
+                            "away_team": "DET",
+                            "game_time": "05:15 PM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "week": 18,
+            "days": [
+                {
+                    "day": "Sunday, January 05",
+                    "games": [
+                        {
+                            "home_team": "ARI",
+                            "away_team": "SF",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "ATL",
+                            "away_team": "CAR",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "BAL",
+                            "away_team": "CLE",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DAL",
+                            "away_team": "WAS",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DEN",
+                            "away_team": "KC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "DET",
+                            "away_team": "MIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "GB",
+                            "away_team": "CHI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "IND",
+                            "away_team": "JAX",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LA",
+                            "away_team": "SEA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "LV",
+                            "away_team": "LAC",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NE",
+                            "away_team": "BUF",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "NYJ",
+                            "away_team": "MIA",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PHI",
+                            "away_team": "NYG",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "PIT",
+                            "away_team": "CIN",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TB",
+                            "away_team": "NO",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        },
+                        {
+                            "home_team": "TEN",
+                            "away_team": "HOU",
+                            "game_time": "10:00 AM",
+                            "status": "no_data"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{{- $title := .Get "title" | default "" -}}
+{{- $closed := eq (.Get "closed") "true" | default false -}}
+
+<details class="font-sans italic" {{ if not $closed }}open{{ end }}>
+  <summary>
+    <strong>{{ $title | markdownify }}</strong>
+  </summary>
+  <div class="p-2 text-slate-500 font-light">
+    {{ .InnerDeindent | markdownify }}
+  </div>
+</details>

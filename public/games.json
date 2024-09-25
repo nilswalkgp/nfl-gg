@@ -12,7 +12,9 @@
                             "home_team": "KC",
                             "away_team": "BAL",
                             "game_time": "05:20 PM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Ravens"
                         }
                     ]
                 },
@@ -23,7 +25,9 @@
                             "home_team": "PHI",
                             "away_team": "GB",
                             "game_time": "05:15 PM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Packers"
                         }
                     ]
                 },
@@ -34,79 +38,105 @@
                             "home_team": "ATL",
                             "away_team": "PIT",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "BUF",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "CHI",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "NE",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Texans"
                         },
                         {
                             "home_team": "MIA",
                             "away_team": "JAX",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "CAR",
                             "game_time": "10:00 AM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "LV",
                             "game_time": "01:05 PM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "DEN",
                             "game_time": "01:05 PM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "CLE",
                             "away_team": "DAL",
                             "game_time": "01:25 PM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Cowboys"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "WAS",
                             "game_time": "01:25 PM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Commanders"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "LA",
                             "game_time": "05:20 PM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Rams"
                         }
                     ]
                 },
@@ -117,7 +147,9 @@
                             "home_team": "SF",
                             "away_team": "NYJ",
                             "game_time": "05:15 PM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Jets"
                         }
                     ]
                 }
@@ -133,7 +165,9 @@
                             "home_team": "MIA",
                             "away_team": "BUF",
                             "game_time": "05:15 PM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Bills"
                         }
                     ]
                 },
@@ -144,85 +178,113 @@
                             "home_team": "BAL",
                             "away_team": "LV",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "CAR",
                             "away_team": "LAC",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "NO",
                             "game_time": "10:00 AM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Saints"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "TB",
                             "game_time": "10:00 AM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Buccaneers"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "SF",
                             "game_time": "10:00 AM",
-                            "status": "discarded_rank"
+                            "status": "discarded_rank",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "49ers"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "SEA",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Seahawks"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "NYG",
                             "game_time": "10:00 AM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "LA",
                             "game_time": "01:05 PM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Rams"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "PIT",
                             "game_time": "01:25 PM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "KC",
                             "away_team": "CIN",
                             "game_time": "01:25 PM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Bengals"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "CHI",
                             "game_time": "05:20 PM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Bears"
                         }
                     ]
                 },
@@ -233,7 +295,9 @@
                             "home_team": "PHI",
                             "away_team": "ATL",
                             "game_time": "05:15 PM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Falcons"
                         }
                     ]
                 }
@@ -249,7 +313,9 @@
                             "home_team": "NYJ",
                             "away_team": "NE",
                             "game_time": "05:15 PM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Patriots"
                         }
                     ]
                 },
@@ -260,79 +326,105 @@
                             "home_team": "CLE",
                             "away_team": "NYG",
                             "game_time": "10:00 AM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "CHI",
                             "game_time": "10:00 AM",
-                            "status": "discarded_rank"
+                            "status": "discarded_rank",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Texans"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "PIT",
                             "away_team": "LAC",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "DEN",
                             "game_time": "10:00 AM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "GB",
                             "game_time": "10:00 AM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Packers"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "CAR",
                             "game_time": "01:05 PM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "MIA",
                             "game_time": "01:05 PM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Dolphins"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "DET",
                             "game_time": "01:25 PM",
-                            "status": "discarded_score"
+                            "status": "discarded_score",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Lions"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "BAL",
                             "game_time": "01:25 PM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Ravens"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "SF",
                             "game_time": "01:25 PM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Rams",
+                            "away_team_name": "49ers"
                         },
                         {
                             "home_team": "ATL",
                             "away_team": "KC",
                             "game_time": "05:20 PM",
-                            "status": "secondary"
+                            "status": "secondary",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Chiefs"
                         }
                     ]
                 },
@@ -343,13 +435,17 @@
                             "home_team": "BUF",
                             "away_team": "JAX",
                             "game_time": "04:30 PM",
-                            "status": "discarded_differential"
+                            "status": "discarded_differential",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "WAS",
                             "game_time": "05:15 PM",
-                            "status": "preferred"
+                            "status": "preferred",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Commanders"
                         }
                     ]
                 }
@@ -365,7 +461,9 @@
                             "home_team": "NYG",
                             "away_team": "DAL",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Cowboys"
                         }
                     ]
                 },
@@ -376,79 +474,105 @@
                             "home_team": "ATL",
                             "away_team": "NO",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Saints"
                         },
                         {
                             "home_team": "CAR",
                             "away_team": "CIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Bengals"
                         },
                         {
                             "home_team": "CHI",
                             "away_team": "LA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Rams"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "JAX",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "PIT",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "NYJ",
                             "away_team": "DEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "WAS",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Commanders"
                         },
                         {
                             "home_team": "SF",
                             "away_team": "NE",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "KC",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "CLE",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "BAL",
                             "away_team": "BUF",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Bills"
                         }
                     ]
                 },
@@ -459,13 +583,17 @@
                             "home_team": "MIA",
                             "away_team": "TEN",
                             "game_time": "04:30 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "SEA",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Seahawks"
                         }
                     ]
                 }
@@ -481,7 +609,9 @@
                             "home_team": "ATL",
                             "away_team": "TB",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Buccaneers"
                         }
                     ]
                 },
@@ -492,73 +622,97 @@
                             "home_team": "MIN",
                             "away_team": "NYJ",
                             "game_time": "06:30 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "CHI",
                             "away_team": "CAR",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "BAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Ravens"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "BUF",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Bills"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "MIA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Dolphins"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "LV",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "SF",
                             "away_team": "ARI",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "GB",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Packers"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "NYG",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "PIT",
                             "away_team": "DAL",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Cowboys"
                         }
                     ]
                 },
@@ -569,7 +723,9 @@
                             "home_team": "KC",
                             "away_team": "NO",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Saints"
                         }
                     ]
                 }
@@ -585,7 +741,9 @@
                             "home_team": "SEA",
                             "away_team": "SF",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "49ers"
                         }
                     ]
                 },
@@ -596,73 +754,97 @@
                             "home_team": "CHI",
                             "away_team": "JAX",
                             "game_time": "06:30 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "BAL",
                             "away_team": "WAS",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Commanders"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Texans"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "TB",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Buccaneers"
                         },
                         {
                             "home_team": "PHI",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "LAC",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "PIT",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "CAR",
                             "away_team": "ATL",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Falcons"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "DET",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Lions"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "CIN",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Bengals"
                         }
                     ]
                 },
@@ -673,7 +855,9 @@
                             "home_team": "NYJ",
                             "away_team": "BUF",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Bills"
                         }
                     ]
                 }
@@ -689,7 +873,9 @@
                             "home_team": "NO",
                             "away_team": "DEN",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Broncos"
                         }
                     ]
                 },
@@ -700,73 +886,97 @@
                             "home_team": "JAX",
                             "away_team": "NE",
                             "game_time": "06:30 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "ATL",
                             "away_team": "SEA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Seahawks"
                         },
                         {
                             "home_team": "BUF",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "CLE",
                             "away_team": "CIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Bengals"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Texans"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "MIA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Dolphins"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "DET",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Lions"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "LV",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "CAR",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "SF",
                             "away_team": "KC",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "PIT",
                             "away_team": "NYJ",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Jets"
                         }
                     ]
                 },
@@ -777,13 +987,17 @@
                             "home_team": "TB",
                             "away_team": "BAL",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Ravens"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "LAC",
                             "game_time": "06:00 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Chargers"
                         }
                     ]
                 }
@@ -799,7 +1013,9 @@
                             "home_team": "LA",
                             "away_team": "MIN",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Vikings"
                         }
                     ]
                 },
@@ -810,85 +1026,113 @@
                             "home_team": "CLE",
                             "away_team": "BAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Ravens"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "GB",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Packers"
                         },
                         {
                             "home_team": "MIA",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "ATL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Falcons"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "CHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "NO",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Saints"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "BUF",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Bills"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "PHI",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "CAR",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "KC",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "SF",
                             "away_team": "DAL",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Cowboys"
                         }
                     ]
                 },
@@ -899,7 +1143,9 @@
                             "home_team": "PIT",
                             "away_team": "NYG",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Giants"
                         }
                     ]
                 }
@@ -915,7 +1161,9 @@
                             "home_team": "NYJ",
                             "away_team": "HOU",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Texans"
                         }
                     ]
                 },
@@ -926,79 +1174,105 @@
                             "home_team": "ATL",
                             "away_team": "DAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Cowboys"
                         },
                         {
                             "home_team": "BAL",
                             "away_team": "DEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "BUF",
                             "away_team": "MIA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Dolphins"
                         },
                         {
                             "home_team": "CAR",
                             "away_team": "NO",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Saints"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "LV",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "CLE",
                             "away_team": "LAC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "WAS",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Commanders"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "NE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "CHI",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "DET",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Lions"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "LA",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Rams"
                         },
                         {
                             "home_team": "PHI",
                             "away_team": "JAX",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Jaguars"
                         }
                     ]
                 },
@@ -1009,7 +1283,9 @@
                             "home_team": "KC",
                             "away_team": "TB",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Buccaneers"
                         }
                     ]
                 }
@@ -1025,7 +1301,9 @@
                             "home_team": "BAL",
                             "away_team": "CIN",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Bengals"
                         }
                     ]
                 },
@@ -1036,73 +1314,97 @@
                             "home_team": "CAR",
                             "away_team": "NYG",
                             "game_time": "06:30 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "CHI",
                             "away_team": "NE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "BUF",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Bills"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "KC",
                             "away_team": "DEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "ATL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Falcons"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "SF",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "49ers"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "PIT",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "TEN",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "NYJ",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "PHI",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "DET",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Lions"
                         }
                     ]
                 },
@@ -1113,7 +1415,9 @@
                             "home_team": "LA",
                             "away_team": "MIA",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Dolphins"
                         }
                     ]
                 }
@@ -1129,7 +1433,9 @@
                             "home_team": "PHI",
                             "away_team": "WAS",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Commanders"
                         }
                     ]
                 },
@@ -1140,73 +1446,97 @@
                             "home_team": "CHI",
                             "away_team": "GB",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Packers"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "JAX",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "MIA",
                             "away_team": "LV",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "LA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Rams"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "PIT",
                             "away_team": "BAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Ravens"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "ATL",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Falcons"
                         },
                         {
                             "home_team": "SF",
                             "away_team": "SEA",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Seahawks"
                         },
                         {
                             "home_team": "BUF",
                             "away_team": "KC",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "CIN",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Bengals"
                         },
                         {
                             "home_team": "NYJ",
                             "away_team": "IND",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Colts"
                         }
                     ]
                 },
@@ -1217,7 +1547,9 @@
                             "home_team": "DAL",
                             "away_team": "HOU",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Texans"
                         }
                     ]
                 }
@@ -1233,7 +1565,9 @@
                             "home_team": "CLE",
                             "away_team": "PIT",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Steelers"
                         }
                     ]
                 },
@@ -1244,67 +1578,89 @@
                             "home_team": "CAR",
                             "away_team": "KC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "CHI",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "DET",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Lions"
                         },
                         {
                             "home_team": "MIA",
                             "away_team": "NE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "TB",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Buccaneers"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "DAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Cowboys"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "DEN",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "SF",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "49ers"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "ARI",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "PHI",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Eagles"
                         }
                     ]
                 },
@@ -1315,7 +1671,9 @@
                             "home_team": "LAC",
                             "away_team": "BAL",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Ravens"
                         }
                     ]
                 }
@@ -1331,19 +1689,25 @@
                             "home_team": "DET",
                             "away_team": "CHI",
                             "game_time": "09:30 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "NYG",
                             "game_time": "01:30 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "MIA",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Dolphins"
                         }
                     ]
                 },
@@ -1354,7 +1718,9 @@
                             "home_team": "KC",
                             "away_team": "LV",
                             "game_time": "12:00 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Raiders"
                         }
                     ]
                 },
@@ -1365,67 +1731,89 @@
                             "home_team": "ATL",
                             "away_team": "LAC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "PIT",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Texans"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "NYJ",
                             "away_team": "SEA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Seahawks"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "CAR",
                             "away_team": "TB",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Buccaneers"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "LA",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Rams"
                         },
                         {
                             "home_team": "BAL",
                             "away_team": "PHI",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "BUF",
                             "away_team": "SF",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bills",
+                            "away_team_name": "49ers"
                         }
                     ]
                 },
@@ -1436,7 +1824,9 @@
                             "home_team": "DEN",
                             "away_team": "CLE",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Browns"
                         }
                     ]
                 }
@@ -1452,7 +1842,9 @@
                             "home_team": "DET",
                             "away_team": "GB",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Packers"
                         }
                     ]
                 },
@@ -1463,67 +1855,89 @@
                             "home_team": "MIA",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "ATL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Falcons"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "NO",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Saints"
                         },
                         {
                             "home_team": "PHI",
                             "away_team": "CAR",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "PIT",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "LV",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "JAX",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "SEA",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Seahawks"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "BUF",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Bills"
                         },
                         {
                             "home_team": "SF",
                             "away_team": "CHI",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "KC",
                             "away_team": "LAC",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Chargers"
                         }
                     ]
                 },
@@ -1534,7 +1948,9 @@
                             "home_team": "DAL",
                             "away_team": "CIN",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Bengals"
                         }
                     ]
                 }
@@ -1550,7 +1966,9 @@
                             "home_team": "SF",
                             "away_team": "LA",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Rams"
                         }
                     ]
                 },
@@ -1561,79 +1979,105 @@
                             "home_team": "CAR",
                             "away_team": "DAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Cowboys"
                         },
                         {
                             "home_team": "CLE",
                             "away_team": "KC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "MIA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Dolphins"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "WAS",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Commanders"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "BAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Ravens"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "CIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Bengals"
                         },
                         {
                             "home_team": "ARI",
                             "away_team": "NE",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "IND",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "BUF",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Bills"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "TB",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Buccaneers"
                         },
                         {
                             "home_team": "PHI",
                             "away_team": "PIT",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Steelers"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "GB",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Packers"
                         }
                     ]
                 },
@@ -1644,13 +2088,17 @@
                             "home_team": "MIN",
                             "away_team": "CHI",
                             "game_time": "05:00 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "ATL",
                             "game_time": "05:30 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Falcons"
                         }
                     ]
                 }
@@ -1666,7 +2114,9 @@
                             "home_team": "CIN",
                             "away_team": "CLE",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Browns"
                         }
                     ]
                 },
@@ -1677,13 +2127,17 @@
                             "home_team": "KC",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chiefs",
+                            "away_team_name": "Texans"
                         },
                         {
                             "home_team": "BAL",
                             "away_team": "PIT",
                             "game_time": "01:30 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Steelers"
                         }
                     ]
                 },
@@ -1694,73 +2148,97 @@
                             "home_team": "ATL",
                             "away_team": "NYG",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "BUF",
                             "away_team": "NE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Patriots"
                         },
                         {
                             "home_team": "CAR",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Panthers",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "CHI",
                             "away_team": "DET",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Lions"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "NYJ",
                             "away_team": "LA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Rams"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Eagles"
                         },
                         {
                             "home_team": "LAC",
                             "away_team": "DEN",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Chargers",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "SEA",
                             "away_team": "MIN",
                             "game_time": "01:05 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Seahawks",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "JAX",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "MIA",
                             "away_team": "SF",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Dolphins",
+                            "away_team_name": "49ers"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "TB",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Buccaneers"
                         }
                     ]
                 },
@@ -1771,7 +2249,9 @@
                             "home_team": "GB",
                             "away_team": "NO",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Saints"
                         }
                     ]
                 }
@@ -1787,13 +2267,17 @@
                             "home_team": "PIT",
                             "away_team": "KC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "HOU",
                             "away_team": "BAL",
                             "game_time": "01:30 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Texans",
+                            "away_team_name": "Ravens"
                         }
                     ]
                 },
@@ -1804,7 +2288,9 @@
                             "home_team": "CHI",
                             "away_team": "SEA",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bears",
+                            "away_team_name": "Seahawks"
                         }
                     ]
                 },
@@ -1815,73 +2301,97 @@
                             "home_team": "BUF",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bills",
+                            "away_team_name": "Jets"
                         },
                         {
                             "home_team": "CIN",
                             "away_team": "DEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Broncos"
                         },
                         {
                             "home_team": "JAX",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jaguars",
+                            "away_team_name": "Titans"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Cardinals"
                         },
                         {
                             "home_team": "MIN",
                             "away_team": "GB",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Packers"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "LAC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "NO",
                             "away_team": "LV",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Saints",
+                            "away_team_name": "Raiders"
                         },
                         {
                             "home_team": "NYG",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Giants",
+                            "away_team_name": "Colts"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "CAR",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "WAS",
                             "away_team": "ATL",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Falcons"
                         },
                         {
                             "home_team": "PHI",
                             "away_team": "DAL",
                             "game_time": "01:25 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Cowboys"
                         },
                         {
                             "home_team": "CLE",
                             "away_team": "MIA",
                             "game_time": "05:20 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Browns",
+                            "away_team_name": "Dolphins"
                         }
                     ]
                 },
@@ -1892,7 +2402,9 @@
                             "home_team": "SF",
                             "away_team": "DET",
                             "game_time": "05:15 PM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "49ers",
+                            "away_team_name": "Lions"
                         }
                     ]
                 }
@@ -1908,97 +2420,129 @@
                             "home_team": "ARI",
                             "away_team": "SF",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cardinals",
+                            "away_team_name": "49ers"
                         },
                         {
                             "home_team": "ATL",
                             "away_team": "CAR",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Falcons",
+                            "away_team_name": "Panthers"
                         },
                         {
                             "home_team": "BAL",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Ravens",
+                            "away_team_name": "Browns"
                         },
                         {
                             "home_team": "DAL",
                             "away_team": "WAS",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Cowboys",
+                            "away_team_name": "Commanders"
                         },
                         {
                             "home_team": "DEN",
                             "away_team": "KC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Broncos",
+                            "away_team_name": "Chiefs"
                         },
                         {
                             "home_team": "DET",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Lions",
+                            "away_team_name": "Vikings"
                         },
                         {
                             "home_team": "GB",
                             "away_team": "CHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Packers",
+                            "away_team_name": "Bears"
                         },
                         {
                             "home_team": "IND",
                             "away_team": "JAX",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Colts",
+                            "away_team_name": "Jaguars"
                         },
                         {
                             "home_team": "LA",
                             "away_team": "SEA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Rams",
+                            "away_team_name": "Seahawks"
                         },
                         {
                             "home_team": "LV",
                             "away_team": "LAC",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Raiders",
+                            "away_team_name": "Chargers"
                         },
                         {
                             "home_team": "NE",
                             "away_team": "BUF",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Patriots",
+                            "away_team_name": "Bills"
                         },
                         {
                             "home_team": "NYJ",
                             "away_team": "MIA",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Jets",
+                            "away_team_name": "Dolphins"
                         },
                         {
                             "home_team": "PHI",
                             "away_team": "NYG",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Giants"
                         },
                         {
                             "home_team": "PIT",
                             "away_team": "CIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Steelers",
+                            "away_team_name": "Bengals"
                         },
                         {
                             "home_team": "TB",
                             "away_team": "NO",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Buccaneers",
+                            "away_team_name": "Saints"
                         },
                         {
                             "home_team": "TEN",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data"
+                            "status": "no_data",
+                            "home_team_name": "Titans",
+                            "away_team_name": "Texans"
                         }
                     ]
                 }

@@ -34,7 +34,9 @@
         {{ $bg = "bg-zinc-200" }}
       {{ end }}
       <div class="p-2 justify-center outline max-w-sm mx-auto {{ $bg }} rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500">
-        {{ $game.away_team}} @ {{ $game.home_team }} {{ $game.game_time}}
+          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/>  @ <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
+          <div class="text-right">{{ $game.game_time }}</div>
+      
       </div>
     {{ end}}
   {{ end }}

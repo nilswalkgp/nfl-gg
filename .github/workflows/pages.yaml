@@ -57,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://nilswalkgp.github.io/nfl-gg/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

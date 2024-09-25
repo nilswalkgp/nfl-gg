@@ -4,7 +4,7 @@ layout: "home"
 ---
 {{< details title="What is this for?" closed="false" >}}
 
-This site recommends which NFL games might be enjoyable to watch each week based on data about the games published after they are played. It's geared towards people with a subscription to NFL Gamepass who have streaming access to all the games at any time.
+This site recommends which NFL games might be enjoyable to watch each week based on data about the games published after they are played. It's geared towards people with a subscription withß streaming access to all the games at any time.
 
 {{< /details >}}
 

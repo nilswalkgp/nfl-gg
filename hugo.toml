@@ -1,7 +1,6 @@
 title = "nfl-gg"
-baseURL = "https://nilswalkgp.github.io/nfl-gg/"
+baseURL = "https://example.com/"
 
-disableKinds = ["taxonomy", "term"]
 
 [params]
 pages = [['about', 'about']]

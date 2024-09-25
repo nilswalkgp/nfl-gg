@@ -4,7 +4,7 @@
       <div id="logo" class="flex items-center font-bold text-blue-600">
         <a
           class="text-2xl transition duration-100 hover:-translate-y-1"
-          href="/"
+          href="{{ site.BaseURL }}"
           >{{ site.Title }}</a
         >
       </div>
@@ -16,7 +16,7 @@
           <li>
             <a
               class="flex w-full py-3 pl-6 pr-4  hover:underline md:items-center md:rounded-lg md:py-2 md:pl-4"
-              href="/{{ index . 1 }}"
+              href="{{ site.BaseURL }}{{ index . 1 }}"
               >{{ index . 0 }}</a
             >
           </li>

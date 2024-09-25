@@ -28,6 +28,6 @@ It gets updated whenever there is fresh data to analyze - typically within a few
 
 {{< details title="It seems to pick a pretty wide range of game as \"good\". Why?" closed="true" >}}
 
-If it only picked one type of game (such as high-scoring games with a 3-point or less margin of victory) then it would give away what's going to happen in the game - you'd always know more or less how it was going to end. For the same reason it does not attempt to rank the games it chooses. It simply tries to choose a wide range of what might be enjoyable games to watch so that you'll hopefully get some decent football but still have the enjoyment of watching "live" sports where the outcome is uncertain. Some games will be better than others, but none will be blowouts or field goal snoozefests.
+If it only picked one type of game (such as high-scoring games with a 3-point or less margin of victory) then it would give away what's going to happen in the game - you'd always know more or less how it was going to end. For the same reason it does not attempt to rank the games it chooses. It simply tries to choose a wide range of what might be enjoyable games to watch so that you'll hopefully get some decent football but still have the enjoyment of watching "live" sports where the outcome is uncertain. Some games it recommends will be better than others, but none will be blowouts or field goal snoozefests.
 
 {{< /details >}}

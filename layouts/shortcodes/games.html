@@ -17,7 +17,7 @@
   {{- $open := eq $data.current_week $week.week | default false -}}
   <div class="flex-container flex-col m-2 p-2">
     <div>
-    <details class="py-2 justify-center outline max-w-sm mx-auto rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500" {{ if $open }}open{{ end }}>
+    <details class="py-2 justify-center max-w-sm mx-auto rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500" {{ if $open }}open{{ end }}>
     <summary><strong>Week {{ $week.week }}</strong></summary>
   {{ range $day := $week.days}}
     {{ $day.day }}

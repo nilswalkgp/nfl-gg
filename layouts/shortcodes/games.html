@@ -15,7 +15,9 @@
 
 {{ range $week := $data.weeks }}
   {{- $open := eq $data.current_week $week.week | default false -}}
-  <details class="p-2 justify-center outline max-w-sm mx-auto rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500" {{ if $open }}open{{ end }}>
+  <div class="flex-container flex-col m-2 p-2">
+    <div>
+    <details class="py-2 justify-center outline max-w-sm mx-auto rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500" {{ if $open }}open{{ end }}>
     <summary><strong>Week {{ $week.week }}</strong></summary>
   {{ range $day := $week.days}}
     {{ $day.day }}
@@ -33,14 +35,16 @@
       {{ else if eq $game.status "no_data" }}
         {{ $bg = "bg-zinc-200" }}
       {{ end }}
-      <div class="p-2 justify-center outline max-w-sm mx-auto {{ $bg }} rounded-lg shadow-lg flex items-center space-x-2 text-lg font-semibold text-slate-500">
-          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/>  @ <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
-          <div class="text-right">{{ $game.game_time }}</div>
+      <div class="p-3 justify-center outline max-w-sm mx-auto {{ $bg }} rounded-lg shadow-lg flex items-center space-x-2 text-sm font-semibold text-slate-500">
+          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/> @ <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
+          <div class="text-right text-sm">{{ $game.game_time }}</div>
       
       </div>
     {{ end}}
   {{ end }}
   </details>
+  </div>
+  </div>
 {{end}}
 
 

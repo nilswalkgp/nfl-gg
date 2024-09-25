@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.131.0
+      HUGO_VERSION: 0.132.2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,13 +56,12 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify \
-            --themesDir=../.. --source=exampleSite \
+            --gc --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./exampleSite/public
+          path: ./public
 
   # Deployment job
   deploy:
@@ -75,4 +74,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

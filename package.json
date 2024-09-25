@@ -1,5 +1,5 @@
 {
-  "name": "hugo-tailwind-starter",
+  "name": "nfl-gg",
   "scripts": {
     "dev-hugo": "hugo server",
     "dev-tailwind": "npx tailwindcss -i assets/css/main.css -o assets/css/index.css --watch",

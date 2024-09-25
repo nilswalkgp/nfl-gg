@@ -1,4 +1,5 @@
 title = "nfl-gg"
+baseURL: https://nilswalkgp.github.io/nfl-gg/
 
 disableKinds = ["taxonomy", "term"]
 

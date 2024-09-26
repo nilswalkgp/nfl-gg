@@ -1,16 +1,13 @@
 <header>
   <nav>
     <div class="align-stretch mx-auto flex min-h-20 justify-between md:h-20">
-      <div id="logo" class="flex items-center font-bold text-blue-600">
+      <div id="logo" class="flex items-center font-bold text-orange-500">
         <a
-          class="text-2xl transition duration-100 hover:-translate-y-1"
-          href="{{ site.BaseURL }}"
-          >{{ site.Title }}</a
-        >
+          class="text-2xl transition duration-100 hover:-translate-y-1 text-blue-600 hover:text-orange-500" href="{{ site.BaseURL }}">{{ site.Title }}</a>
       </div>
       <ul
         id="nav-links"
-        class="hamburger absolute right-4 top-16 hidden w-64 rounded-lg border-2 py-4 text-xl font-semibold shadow-xl md:static md:flex md:w-max md:items-center md:rounded-none md:border-none md:bg-transparent md:py-0 md:text-base md:shadow-none"
+        class="hamburger absolute right-4 top-16 hidden w-64 border-2 py-4 text-xl font-semibold shadow-xl md:static md:flex md:w-max md:items-center md:rounded-none md:border-none md:bg-transparent md:py-0 md:shadow-none"
       >
         {{ range site.Params.pages }}
           <li>

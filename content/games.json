@@ -1,6 +1,6 @@
 {
     "year": 2024,
-    "current_week": 3,
+    "current_week": 4,
     "weeks": [
         {
             "week": 1,
@@ -222,7 +222,7 @@
                             "home_team": "DET",
                             "away_team": "TB",
                             "game_time": "10:00 AM",
-                            "status": "secondary",
+                            "status": "discarded_score",
                             "home_team_name": "Lions",
                             "away_team_name": "Buccaneers",
                             "game_key": "2024_02_TB_DET"
@@ -359,7 +359,7 @@
                             "home_team": "CLE",
                             "away_team": "NYG",
                             "game_time": "10:00 AM",
-                            "status": "secondary",
+                            "status": "discarded_score",
                             "home_team_name": "Browns",
                             "away_team_name": "Giants",
                             "game_key": "2024_03_NYG_CLE"
@@ -509,7 +509,7 @@
                             "home_team": "NYG",
                             "away_team": "DAL",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Giants",
                             "away_team_name": "Cowboys",
                             "game_key": "2024_04_DAL_NYG"

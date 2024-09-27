@@ -4,3 +4,6 @@ baseURL = "https://example.com/"
 
 [params]
 pages = [['about', 'about']]
+
+[markup.goldmark.renderer]
+    unsafe = true

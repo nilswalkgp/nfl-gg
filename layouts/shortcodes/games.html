@@ -45,15 +45,15 @@
     
     {{ range $game := $day.games}}
       {{ if eq $game.status "preferred" }}
-        {{ $bg = "shadow-green-400" }}
+        {{ $bg = "shadow-green-600" }}
       {{ else if eq $game.status "secondary" }}
-        {{ $bg = "shadow-green-400" }}
+        {{ $bg = "shadow-green-600" }}
       {{ else if eq $game.status "discarded_score" }}
-        {{ $bg = "shadow-red-400" }}
+        {{ $bg = "shadow-red-600" }}
       {{ else if eq $game.status "discarded_differential" }}
-        {{ $bg = "shadow-red-400" }}
+        {{ $bg = "shadow-red-600" }}
       {{ else if eq $game.status "discarded_rank" }}
-        {{ $bg = "shadow-red-400" }}
+        {{ $bg = "shadow-red-600" }}
       {{ else if eq $game.status "no_data" }}
         {{ $bg = "bg-white" }}
       {{ end }}

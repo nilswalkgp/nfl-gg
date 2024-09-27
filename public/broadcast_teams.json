@@ -1,0 +1,22 @@
+{
+    "NBC1": {"network": "NBC", "booth": ["Mike Tirico", "Cris Collinsworth"]},
+    "NBC2": {"network": "NBC", "booth": ["Noah Eagle", "Todd Blackledge"]},
+    "FOX1": {"network": "FOX", "booth": ["Kevin Burkhardt", "Tom Brady"]},
+    "FOX2": {"network": "FOX", "booth": ["Joe Davis", "Greg Olsen"]},
+    "FOX3": {"network": "FOX", "booth": ["Kenny Albert", "Jonathan Vilma"]},
+    "FOX4": {"network": "FOX", "booth": ["Adam Amin", "Mark Sanchez"]},
+    "FOX5": {"network": "FOX", "booth": ["Chris Myers", "Mark Schlereth"]},
+    "FOX6": {"network": "FOX", "booth": ["Kevin Kugler", "Daryl Johnston"]},
+    "FOX7": {"network": "FOX", "booth": ["Tim Brando", "Matt Millen"]},
+    "CBS1": {"network": "CBS", "booth": ["Jim Nantz", "Tony Romo"]},
+    "CBS2": {"network": "CBS", "booth": ["Ian Eagle", "Charles Davis"]},
+    "CBS3": {"network": "CBS", "booth": ["Kevin Harlan", "Trent Green"]},
+    "CBS4": {"network": "CBS", "booth": ["Andrew Catalon", "Tiki Barber"]},
+    "CBS5": {"network": "CBS", "booth": ["Spero Dedes", "Adam Archuleta"]},
+    "CBS6": {"network": "CBS", "booth": ["Tom McCarthy", "Ross Tucker"]},
+    "CBS7": {"network": "CBS", "booth": ["Beth Mowins", "Jay Feely"]},
+    "ESPN1": {"network": "ESPN", "booth": ["Joe Buck", "Troy Aikman"]},
+    "ESPN2": {"network": "ESPN", "booth": ["Peyton Manning", "Eli Manning"]},
+    "ESPN3": {"network": "ESPN", "booth": ["Chris Fowler", "Dan Orlovsky"]},
+    "AMZ1": {"network": "Prime", "booth": ["Al Michaels", "Kirk Herbstreit"]}
+}

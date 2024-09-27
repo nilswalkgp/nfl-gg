@@ -3,7 +3,7 @@
     <div class="align-stretch mx-auto flex min-h-20 justify-between md:h-20">
       <div id="logo" class="flex items-center font-bold text-orange-500">
         <a
-          class="text-2xl transition duration-100 hover:-translate-y-1 text-blue-600 hover:text-orange-500" href="{{ site.BaseURL }}">{{ site.Title }}</a>
+          class="text-2xl transition duration-100 text-slate-700 hover:text-orange-500" href="{{ site.BaseURL }}">{{ site.Title }}</a>
       </div>
       <ul
         id="nav-links"
@@ -12,7 +12,7 @@
         {{ range site.Params.pages }}
           <li>
             <a
-              class="flex w-full py-3 pl-6 pr-4  hover:underline md:items-center md:rounded-lg md:py-2 md:pl-4"
+              class="flex w-full py-3 pl-6 pr-4 transition duration-100 text-slate-700 hover:text-orange-500 md:items-center md:rounded-lg md:py-2 md:pl-4"
               href="{{ site.BaseURL }}{{ index . 1 }}"
               >{{ index . 0 }}</a
             >

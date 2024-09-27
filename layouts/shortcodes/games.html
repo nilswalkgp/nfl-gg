@@ -32,7 +32,8 @@
   {{ errorf "Unable to get page resource %q" $path }}
 {{ end }}
 
-{{ $bg := "bg-white" }}
+{{ $bg := "shadow-slate-400" }}
+{{ $tc := "text-slate-700" }}
 
 {{ range $week := $data.weeks }}
   {{- $open := eq $data.current_week $week.week | default false -}}
@@ -46,17 +47,25 @@
     {{ range $game := $day.games}}
       {{ if eq $game.status "preferred" }}
         {{ $bg = "shadow-green-600" }}
+        {{ $tc = "text-green-600" }}
       {{ else if eq $game.status "secondary" }}
         {{ $bg = "shadow-green-600" }}
+        {{ $tc = "text-green-600" }}
       {{ else if eq $game.status "discarded_score" }}
         {{ $bg = "shadow-red-600" }}
+        {{ $tc = "text-red-600" }}
       {{ else if eq $game.status "discarded_differential" }}
         {{ $bg = "shadow-red-600" }}
+        {{ $tc = "text-red-600" }}
       {{ else if eq $game.status "discarded_rank" }}
         {{ $bg = "shadow-red-600" }}
+        {{ $tc = "text-red-600" }}
       {{ else if eq $game.status "no_data" }}
-        {{ $bg = "bg-white" }}
+        {{ $bg = "shadow-slate-400" }}
+        {{ $tc = "text-slate-700" }}
       {{ end }}
+
+      {{ $tc := "text-slate-700" }}
 
       {{ $broadcast_key := index $broadcast_map $game.game_key }}
       {{ $broadcast_team := index $broadcast_teams $broadcast_key }}
@@ -65,7 +74,7 @@
       <div class="p-2 grid grid-flow-col auto-cols-fr shadow-md rounded-sm {{ $bg }}">
         <div class="flex flex-col font-light"><div class="text-sm font-semibold">{{ $game.game_time }}<span class="align-top font-light text-xs"> PDT</span></div><div class="text-sm">{{ $broadcast_team.network }}</div></div>
         <div class="flex flex-row">
-          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/> <span class="m-2">@</span> <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
+          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/> <span class="m-2 {{ $tc }}">@</span> <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
         </div>
         <div class="flex flex-col">
             {{ range $announcer := $broadcast_team.booth}}

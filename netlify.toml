@@ -1,4 +1,8 @@
+[build]
+    command = "hugo"
+    publish = "public"
+
 [build.environment]
-HUGO_VERSION = "0.134.2"
-GO_VERSION = "1.23.1"
-NODE_VERSION = "22.9.0"
+    HUGO_VERSION = "0.134.2"
+    GO_VERSION = "1.23.1"
+    NODE_VERSION = "22.9.0"

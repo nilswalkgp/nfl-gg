@@ -523,7 +523,7 @@
                             "home_team": "ATL",
                             "away_team": "NO",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Falcons",
                             "away_team_name": "Saints",
                             "game_key": "2024_04_NO_ATL"
@@ -532,7 +532,7 @@
                             "home_team": "CAR",
                             "away_team": "CIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_rank",
                             "home_team_name": "Panthers",
                             "away_team_name": "Bengals",
                             "game_key": "2024_04_CIN_CAR"
@@ -541,7 +541,7 @@
                             "home_team": "CHI",
                             "away_team": "LA",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Bears",
                             "away_team_name": "Rams",
                             "game_key": "2024_04_LA_CHI"
@@ -550,7 +550,7 @@
                             "home_team": "GB",
                             "away_team": "MIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Packers",
                             "away_team_name": "Vikings",
                             "game_key": "2024_04_MIN_GB"
@@ -559,7 +559,7 @@
                             "home_team": "HOU",
                             "away_team": "JAX",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Texans",
                             "away_team_name": "Jaguars",
                             "game_key": "2024_04_JAX_HOU"
@@ -568,7 +568,7 @@
                             "home_team": "IND",
                             "away_team": "PIT",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Colts",
                             "away_team_name": "Steelers",
                             "game_key": "2024_04_PIT_IND"
@@ -577,7 +577,7 @@
                             "home_team": "NYJ",
                             "away_team": "DEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Jets",
                             "away_team_name": "Broncos",
                             "game_key": "2024_04_DEN_NYJ"
@@ -586,7 +586,7 @@
                             "home_team": "TB",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Buccaneers",
                             "away_team_name": "Eagles",
                             "game_key": "2024_04_PHI_TB"
@@ -595,7 +595,7 @@
                             "home_team": "ARI",
                             "away_team": "WAS",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Cardinals",
                             "away_team_name": "Commanders",
                             "game_key": "2024_04_WAS_ARI"
@@ -604,7 +604,7 @@
                             "home_team": "SF",
                             "away_team": "NE",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "49ers",
                             "away_team_name": "Patriots",
                             "game_key": "2024_04_NE_SF"
@@ -613,7 +613,7 @@
                             "home_team": "LAC",
                             "away_team": "KC",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Chargers",
                             "away_team_name": "Chiefs",
                             "game_key": "2024_04_KC_LAC"
@@ -622,7 +622,7 @@
                             "home_team": "LV",
                             "away_team": "CLE",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Raiders",
                             "away_team_name": "Browns",
                             "game_key": "2024_04_CLE_LV"
@@ -631,7 +631,7 @@
                             "home_team": "BAL",
                             "away_team": "BUF",
                             "game_time": "5:20 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Ravens",
                             "away_team_name": "Bills",
                             "game_key": "2024_04_BUF_BAL"

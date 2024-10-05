@@ -925,6 +925,24 @@ blockquote {
   padding: 1rem;
 }
 
+.visibledevice {
+  display:none;
+}
+
+.visibledesktop {
+  display:display;
+}
+
+@media (max-width : 320px) {
+  .visibledevice {
+    display:block;
+  }
+
+  .visibledesktop {
+    display:none;
+  }
+}
+
 .hover\:text-orange-500:hover {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));

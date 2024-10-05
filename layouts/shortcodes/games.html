@@ -76,11 +76,16 @@
         <div class="flex flex-row">
           <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/> <span class="m-2 {{ $tc }}">@</span> <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
         </div>
-        <div class="flex flex-col">
+          <div class="flex flex-col visibledesktop">
             {{ range $announcer := $broadcast_team.booth}}
-                <div class="text-sm font-light self-end">{{ $announcer }}</div>
-            {{ end }}
-        </div>
+              <div class="text-sm font-light self-end">{{ $announcer }}</div>
+            {{ end }}  
+          </div>
+          <div class="flex flex-col visibledevice">
+            {{ range $announcer := $broadcast_team.booth_short}}
+              <div class="text-sm font-light self-end">{{ $announcer }}</div>
+            {{ end }}  
+          </div>
       </div>
       </div>
     {{ end}}

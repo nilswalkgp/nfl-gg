@@ -49,3 +49,11 @@ h3 {
 blockquote {
   @apply bg-gray-800 p-4 rounded-sm;
 }
+
+.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media (max-width : 320px) {
+  .visibledevice {display:block;}
+  .visibledesktop {display:none;}
+}

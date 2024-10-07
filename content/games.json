@@ -786,7 +786,7 @@
                             "home_team": "PIT",
                             "away_team": "DAL",
                             "game_time": "5:20 PM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Steelers",
                             "away_team_name": "Cowboys",
                             "game_key": "2024_05_DAL_PIT"

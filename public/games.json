@@ -750,7 +750,7 @@
                             "home_team": "DEN",
                             "away_team": "LV",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Broncos",
                             "away_team_name": "Raiders",
                             "game_key": "2024_05_LV_DEN"
@@ -759,7 +759,7 @@
                             "home_team": "SF",
                             "away_team": "ARI",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "49ers",
                             "away_team_name": "Cardinals",
                             "game_key": "2024_05_ARI_SF"
@@ -768,7 +768,7 @@
                             "home_team": "LA",
                             "away_team": "GB",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Rams",
                             "away_team_name": "Packers",
                             "game_key": "2024_05_GB_LA"
@@ -777,7 +777,7 @@
                             "home_team": "SEA",
                             "away_team": "NYG",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "discarded_rank",
                             "home_team_name": "Seahawks",
                             "away_team_name": "Giants",
                             "game_key": "2024_05_NYG_SEA"

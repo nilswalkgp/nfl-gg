@@ -42,27 +42,35 @@
         <details class="py-1 justify-center max-w-sm mx-auto flex items-center text-lg text-slate-700" {{ if $open }}open{{ end }}>
             <summary class="hover:text-orange-500"><strong>Week {{ $week.week }}</strong></summary>
   {{ range $day := $week.days}}
-  <div class="mx-3 my-3 font-semibold">{{ $day.day }}</div>
+    {{ $day_ouput := true }}
     
     {{ range $game := $day.games}}
       {{ if eq $game.status "preferred" }}
         {{ $bg = "shadow-green-600" }}
         {{ $tc = "text-green-600" }}
       {{ else if eq $game.status "secondary" }}
-        {{ $bg = "shadow-green-600" }}
-        {{ $tc = "text-green-600" }}
+        {{ $bg = "shadow-yellow-600" }}
+        {{ $tc = "text-tellow-600" }}
       {{ else if eq $game.status "discarded_score" }}
+        {{ continue }}
         {{ $bg = "shadow-red-600" }}
         {{ $tc = "text-red-600" }}
       {{ else if eq $game.status "discarded_differential" }}
+      {{ continue }}
         {{ $bg = "shadow-red-600" }}
         {{ $tc = "text-red-600" }}
       {{ else if eq $game.status "discarded_rank" }}
+      {{ continue }}
         {{ $bg = "shadow-red-600" }}
         {{ $tc = "text-red-600" }}
       {{ else if eq $game.status "no_data" }}
         {{ $bg = "shadow-slate-400" }}
         {{ $tc = "text-slate-700" }}
+      {{ end }}
+
+      {{ if $day_ouput }}
+        <div class="mx-3 my-3 font-semibold">{{ $day.day }}</div>
+        {{ $day_ouput = false }}
       {{ end }}
 
       {{ $tc := "text-slate-700" }}

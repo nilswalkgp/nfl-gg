@@ -848,6 +848,11 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-yellow-600 {
+  --tw-shadow-color: #ca8a04;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -933,7 +938,7 @@ blockquote {
   display:display;
 }
 
-@media (max-width : 320px) {
+@media (max-width : 450px) {
   .visibledevice {
     display:block;
   }

@@ -10,7 +10,7 @@ This site recommends which NFL games might be enjoyable to watch each week based
 
 {{< details title="What do the colours mean?" closed="true" >}}
 
-Red indicates a game probably not worth watching, green indicates a good game, and grey indicates a game that doesn't have any data yet.
+Yellow indicates a game possibly worth watching, green is definitely worth watching, and grey indicates a game that doesn't have any data yet (either it hasn't been played or the stats aren't updated). Games that have data but aren't worth watching are removed from the list to make it easier to see the good games.
 
 {{< /details >}}
 

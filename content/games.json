@@ -800,7 +800,7 @@
                             "home_team": "KC",
                             "away_team": "NO",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "discarded_rank",
                             "home_team_name": "Chiefs",
                             "away_team_name": "Saints",
                             "game_key": "2024_05_NO_KC"

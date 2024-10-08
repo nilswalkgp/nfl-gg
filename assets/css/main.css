@@ -54,6 +54,6 @@ blockquote {
 .visibledesktop {display:display;}
 
 @media (max-width : 450px) {
-  .visibledevice {display:block;}
+  .visibledevice {display:flex;}
   .visibledesktop {display:none;}
 }

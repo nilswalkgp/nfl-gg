@@ -940,7 +940,7 @@ blockquote {
 
 @media (max-width : 450px) {
   .visibledevice {
-    display:block;
+    display:flex;
   }
 
   .visibledesktop {

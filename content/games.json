@@ -1,6 +1,6 @@
 {
     "year": 2024,
-    "current_week": 5,
+    "current_week": 6,
     "weeks": [
         {
             "week": 1,
@@ -819,7 +819,7 @@
                             "home_team": "SEA",
                             "away_team": "SF",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Seahawks",
                             "away_team_name": "49ers",
                             "game_key": "2024_06_SF_SEA"

@@ -833,7 +833,7 @@
                             "home_team": "CHI",
                             "away_team": "JAX",
                             "game_time": "6:30 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Bears",
                             "away_team_name": "Jaguars",
                             "game_key": "2024_06_JAX_CHI"
@@ -842,7 +842,7 @@
                             "home_team": "BAL",
                             "away_team": "WAS",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Ravens",
                             "away_team_name": "Commanders",
                             "game_key": "2024_06_WAS_BAL"
@@ -851,7 +851,7 @@
                             "home_team": "GB",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Packers",
                             "away_team_name": "Cardinals",
                             "game_key": "2024_06_ARI_GB"
@@ -860,7 +860,7 @@
                             "home_team": "NE",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Patriots",
                             "away_team_name": "Texans",
                             "game_key": "2024_06_HOU_NE"
@@ -869,7 +869,7 @@
                             "home_team": "NO",
                             "away_team": "TB",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Saints",
                             "away_team_name": "Buccaneers",
                             "game_key": "2024_06_TB_NO"
@@ -878,7 +878,7 @@
                             "home_team": "PHI",
                             "away_team": "CLE",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Eagles",
                             "away_team_name": "Browns",
                             "game_key": "2024_06_CLE_PHI"
@@ -887,7 +887,7 @@
                             "home_team": "TEN",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Titans",
                             "away_team_name": "Colts",
                             "game_key": "2024_06_IND_TEN"
@@ -896,7 +896,7 @@
                             "home_team": "DEN",
                             "away_team": "LAC",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_rank",
                             "home_team_name": "Broncos",
                             "away_team_name": "Chargers",
                             "game_key": "2024_06_LAC_DEN"
@@ -905,7 +905,7 @@
                             "home_team": "LV",
                             "away_team": "PIT",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Raiders",
                             "away_team_name": "Steelers",
                             "game_key": "2024_06_PIT_LV"
@@ -914,7 +914,7 @@
                             "home_team": "CAR",
                             "away_team": "ATL",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Panthers",
                             "away_team_name": "Falcons",
                             "game_key": "2024_06_ATL_CAR"
@@ -923,7 +923,7 @@
                             "home_team": "DAL",
                             "away_team": "DET",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Cowboys",
                             "away_team_name": "Lions",
                             "game_key": "2024_06_DET_DAL"
@@ -932,7 +932,7 @@
                             "home_team": "NYG",
                             "away_team": "CIN",
                             "game_time": "5:20 PM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Giants",
                             "away_team_name": "Bengals",
                             "game_key": "2024_06_CIN_NYG"

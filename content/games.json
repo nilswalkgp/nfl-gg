@@ -946,7 +946,7 @@
                             "home_team": "NYJ",
                             "away_team": "BUF",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Jets",
                             "away_team_name": "Bills",
                             "game_key": "2024_06_BUF_NYJ"

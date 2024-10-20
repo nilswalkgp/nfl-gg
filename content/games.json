@@ -1,6 +1,6 @@
 {
     "year": 2024,
-    "current_week": 6,
+    "current_week": 7,
     "weeks": [
         {
             "week": 1,
@@ -965,7 +965,7 @@
                             "home_team": "NO",
                             "away_team": "DEN",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Saints",
                             "away_team_name": "Broncos",
                             "game_key": "2024_07_DEN_NO"
@@ -979,7 +979,7 @@
                             "home_team": "JAX",
                             "away_team": "NE",
                             "game_time": "6:30 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Jaguars",
                             "away_team_name": "Patriots",
                             "game_key": "2024_07_NE_JAX"
@@ -988,7 +988,7 @@
                             "home_team": "ATL",
                             "away_team": "SEA",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Falcons",
                             "away_team_name": "Seahawks",
                             "game_key": "2024_07_SEA_ATL"
@@ -997,7 +997,7 @@
                             "home_team": "BUF",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Bills",
                             "away_team_name": "Titans",
                             "game_key": "2024_07_TEN_BUF"
@@ -1006,7 +1006,7 @@
                             "home_team": "CLE",
                             "away_team": "CIN",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Browns",
                             "away_team_name": "Bengals",
                             "game_key": "2024_07_CIN_CLE"
@@ -1015,7 +1015,7 @@
                             "home_team": "GB",
                             "away_team": "HOU",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Packers",
                             "away_team_name": "Texans",
                             "game_key": "2024_07_HOU_GB"
@@ -1024,7 +1024,7 @@
                             "home_team": "IND",
                             "away_team": "MIA",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Colts",
                             "away_team_name": "Dolphins",
                             "game_key": "2024_07_MIA_IND"
@@ -1033,7 +1033,7 @@
                             "home_team": "MIN",
                             "away_team": "DET",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Vikings",
                             "away_team_name": "Lions",
                             "game_key": "2024_07_DET_MIN"
@@ -1042,7 +1042,7 @@
                             "home_team": "NYG",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Giants",
                             "away_team_name": "Eagles",
                             "game_key": "2024_07_PHI_NYG"
@@ -1131,6 +1131,15 @@
                     "day": "Sunday, October 27",
                     "games": [
                         {
+                            "home_team": "CIN",
+                            "away_team": "PHI",
+                            "game_time": "10:00 AM",
+                            "status": "no_data",
+                            "home_team_name": "Bengals",
+                            "away_team_name": "Eagles",
+                            "game_key": "2024_08_PHI_CIN"
+                        },
+                        {
                             "home_team": "CLE",
                             "away_team": "BAL",
                             "game_time": "10:00 AM",
@@ -1194,15 +1203,6 @@
                             "game_key": "2024_08_ATL_TB"
                         },
                         {
-                            "home_team": "WAS",
-                            "away_team": "CHI",
-                            "game_time": "10:00 AM",
-                            "status": "no_data",
-                            "home_team_name": "Commanders",
-                            "away_team_name": "Bears",
-                            "game_key": "2024_08_CHI_WAS"
-                        },
-                        {
                             "home_team": "LAC",
                             "away_team": "NO",
                             "game_time": "1:05 PM",
@@ -1221,15 +1221,6 @@
                             "game_key": "2024_08_BUF_SEA"
                         },
                         {
-                            "home_team": "CIN",
-                            "away_team": "PHI",
-                            "game_time": "1:25 PM",
-                            "status": "no_data",
-                            "home_team_name": "Bengals",
-                            "away_team_name": "Eagles",
-                            "game_key": "2024_08_PHI_CIN"
-                        },
-                        {
                             "home_team": "DEN",
                             "away_team": "CAR",
                             "game_time": "1:25 PM",
@@ -1246,6 +1237,15 @@
                             "home_team_name": "Raiders",
                             "away_team_name": "Chiefs",
                             "game_key": "2024_08_KC_LV"
+                        },
+                        {
+                            "home_team": "WAS",
+                            "away_team": "CHI",
+                            "game_time": "1:25 PM",
+                            "status": "no_data",
+                            "home_team_name": "Commanders",
+                            "away_team_name": "Bears",
+                            "game_key": "2024_08_CHI_WAS"
                         },
                         {
                             "home_team": "SF",

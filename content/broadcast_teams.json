@@ -2,9 +2,9 @@
     "NBC1": {"network": "NBC", "booth": ["Mike Tirico", "Cris Collinsworth"], "booth_short": ["Tirico", "Collinsworth"]},
     "NBC2": {"network": "NBC", "booth": ["Noah Eagle", "Todd Blackledge"], "booth_short": ["Eagle", "Blackledge"]},
     "FOX1": {"network": "FOX", "booth": ["Kevin Burkhardt", "Tom Brady"], "booth_short": ["Burkhardt", "Brady"]},
-    "FOX2": {"network": "FOX", "booth": ["Jason Benetti", "Greg Olsen"], "booth_short": ["Benetti", "Olsen"]},
+    "FOX2": {"network": "FOX", "booth": ["JAdam Amin", "Greg Olsen"], "booth_short": ["Benetti", "Olsen"]},
     "FOX3": {"network": "FOX", "booth": ["Kenny Albert", "Jonathan Vilma"], "booth_short": ["Albert", "Vilma"]},
-    "FOX4": {"network": "FOX", "booth": ["Adam Amin", "Mark Sanchez"], "booth_short": ["Amin", "Sanchez"]},
+    "FOX4": {"network": "FOX", "booth": ["Chris Myers", "Mark Sanchez"], "booth_short": ["Amin", "Sanchez"]},
     "FOX5": {"network": "FOX", "booth": ["Chris Myers", "Mark Schlereth"], "booth_short": ["Myers", "Schlereth"]},
     "FOX6": {"network": "FOX", "booth": ["Kevin Kugler", "Daryl Johnston"], "booth_short": ["Kugler", "Johnston"]},
     "FOX7": {"network": "FOX", "booth": ["Tim Brando", "Matt Millen"], "booth_short": ["Brando", "Millen"]},
@@ -19,5 +19,6 @@
     "ESPN2": {"network": "ESPN", "booth": ["Peyton Manning", "Eli Manning"], "booth_short": ["Manning", "Manning"]},
     "ESPN3": {"network": "ESPN", "booth": ["Chris Fowler", "Dan Orlovsky"], "booth_short": ["Fowler", "Orlovsky"]},
     "AMZ1": {"network": "Prime", "booth": ["Al Michaels", "Kirk Herbstreit"], "booth_short": ["Michaels", "Herbstreit"]},
-    "NFL1": {"network": "NFLN", "booth": ["Rich Eisen", "Kurt Warner"], "booth_short": ["Eisen", "Warner"]}
+    "NFL1": {"network": "NFLN", "booth": ["Rich Eisen", "Kurt Warner"], "booth_short": ["Eisen", "Warner"]},
+    "NFL2": {"network": "NFLN", "booth": ["Chris Rose", "Joe Thomas"], "booth_short": ["Rose", "Thomas"]}
 }

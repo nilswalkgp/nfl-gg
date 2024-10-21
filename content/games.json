@@ -1051,7 +1051,7 @@
                             "home_team": "LA",
                             "away_team": "LV",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Rams",
                             "away_team_name": "Raiders",
                             "game_key": "2024_07_LV_LA"
@@ -1060,7 +1060,7 @@
                             "home_team": "WAS",
                             "away_team": "CAR",
                             "game_time": "1:05 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Commanders",
                             "away_team_name": "Panthers",
                             "game_key": "2024_07_CAR_WAS"
@@ -1069,7 +1069,7 @@
                             "home_team": "SF",
                             "away_team": "KC",
                             "game_time": "1:25 PM",
-                            "status": "no_data",
+                            "status": "discarded_rank",
                             "home_team_name": "49ers",
                             "away_team_name": "Chiefs",
                             "game_key": "2024_07_KC_SF"

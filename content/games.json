@@ -1078,7 +1078,7 @@
                             "home_team": "PIT",
                             "away_team": "NYJ",
                             "game_time": "5:20 PM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Steelers",
                             "away_team_name": "Jets",
                             "game_key": "2024_07_NYJ_PIT"

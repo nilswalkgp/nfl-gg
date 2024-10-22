@@ -1092,7 +1092,7 @@
                             "home_team": "TB",
                             "away_team": "BAL",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Buccaneers",
                             "away_team_name": "Ravens",
                             "game_key": "2024_07_BAL_TB"
@@ -1101,7 +1101,7 @@
                             "home_team": "ARI",
                             "away_team": "LAC",
                             "game_time": "6:00 PM",
-                            "status": "no_data",
+                            "status": "discarded_score",
                             "home_team_name": "Cardinals",
                             "away_team_name": "Chargers",
                             "game_key": "2024_07_LAC_ARI"
@@ -1349,15 +1349,6 @@
                             "game_key": "2024_09_LAC_CLE"
                         },
                         {
-                            "home_team": "MIN",
-                            "away_team": "IND",
-                            "game_time": "10:00 AM",
-                            "status": "no_data",
-                            "home_team_name": "Vikings",
-                            "away_team_name": "Colts",
-                            "game_key": "2024_09_IND_MIN"
-                        },
-                        {
                             "home_team": "NYG",
                             "away_team": "WAS",
                             "game_time": "10:00 AM",
@@ -1385,6 +1376,15 @@
                             "game_key": "2024_09_CHI_ARI"
                         },
                         {
+                            "home_team": "PHI",
+                            "away_team": "JAX",
+                            "game_time": "1:05 PM",
+                            "status": "no_data",
+                            "home_team_name": "Eagles",
+                            "away_team_name": "Jaguars",
+                            "game_key": "2024_09_JAX_PHI"
+                        },
+                        {
                             "home_team": "GB",
                             "away_team": "DET",
                             "game_time": "1:25 PM",
@@ -1403,13 +1403,13 @@
                             "game_key": "2024_09_LA_SEA"
                         },
                         {
-                            "home_team": "PHI",
-                            "away_team": "JAX",
+                            "home_team": "MIN",
+                            "away_team": "IND",
                             "game_time": "5:20 PM",
                             "status": "no_data",
-                            "home_team_name": "Eagles",
-                            "away_team_name": "Jaguars",
-                            "game_key": "2024_09_JAX_PHI"
+                            "home_team_name": "Vikings",
+                            "away_team_name": "Colts",
+                            "game_key": "2024_09_IND_MIN"
                         }
                     ]
                 },

@@ -12,7 +12,7 @@
                             "home_team": "KC",
                             "away_team": "BAL",
                             "game_time": "5:20 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Chiefs",
                             "away_team_name": "Ravens",
                             "game_key": "2024_01_BAL_KC"
@@ -121,7 +121,7 @@
                             "home_team": "SEA",
                             "away_team": "DEN",
                             "game_time": "1:05 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Seahawks",
                             "away_team_name": "Broncos",
                             "game_key": "2024_01_DEN_SEA"
@@ -162,7 +162,7 @@
                             "home_team": "SF",
                             "away_team": "NYJ",
                             "game_time": "5:15 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "49ers",
                             "away_team_name": "Jets",
                             "game_key": "2024_01_NYJ_SF"
@@ -267,7 +267,7 @@
                             "home_team": "TEN",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Titans",
                             "away_team_name": "Jets",
                             "game_key": "2024_02_NYJ_TEN"
@@ -422,7 +422,7 @@
                             "home_team": "LV",
                             "away_team": "CAR",
                             "game_time": "1:05 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Raiders",
                             "away_team_name": "Panthers",
                             "game_key": "2024_03_CAR_LV"
@@ -467,7 +467,7 @@
                             "home_team": "ATL",
                             "away_team": "KC",
                             "game_time": "5:20 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Falcons",
                             "away_team_name": "Chiefs",
                             "game_key": "2024_03_KC_ATL"
@@ -541,7 +541,7 @@
                             "home_team": "CHI",
                             "away_team": "LA",
                             "game_time": "10:00 AM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Bears",
                             "away_team_name": "Rams",
                             "game_key": "2024_04_LA_CHI"
@@ -654,7 +654,7 @@
                             "home_team": "DET",
                             "away_team": "SEA",
                             "game_time": "5:15 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Lions",
                             "away_team_name": "Seahawks",
                             "game_key": "2024_04_SEA_DET"
@@ -768,7 +768,7 @@
                             "home_team": "LA",
                             "away_team": "GB",
                             "game_time": "1:25 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Rams",
                             "away_team_name": "Packers",
                             "game_key": "2024_05_GB_LA"
@@ -819,7 +819,7 @@
                             "home_team": "SEA",
                             "away_team": "SF",
                             "game_time": "5:15 PM",
-                            "status": "secondary",
+                            "status": "discarded_rank",
                             "home_team_name": "Seahawks",
                             "away_team_name": "49ers",
                             "game_key": "2024_06_SF_SEA"

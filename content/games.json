@@ -1134,7 +1134,7 @@
                             "home_team": "CIN",
                             "away_team": "PHI",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Bengals",
                             "away_team_name": "Eagles",
                             "game_key": "2024_08_PHI_CIN"
@@ -1143,7 +1143,7 @@
                             "home_team": "CLE",
                             "away_team": "BAL",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Browns",
                             "away_team_name": "Ravens",
                             "game_key": "2024_08_BAL_CLE"
@@ -1152,7 +1152,7 @@
                             "home_team": "DET",
                             "away_team": "TEN",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "discarded_differential",
                             "home_team_name": "Lions",
                             "away_team_name": "Titans",
                             "game_key": "2024_08_TEN_DET"
@@ -1161,7 +1161,7 @@
                             "home_team": "HOU",
                             "away_team": "IND",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Texans",
                             "away_team_name": "Colts",
                             "game_key": "2024_08_IND_HOU"
@@ -1170,7 +1170,7 @@
                             "home_team": "JAX",
                             "away_team": "GB",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Jaguars",
                             "away_team_name": "Packers",
                             "game_key": "2024_08_GB_JAX"
@@ -1179,7 +1179,7 @@
                             "home_team": "MIA",
                             "away_team": "ARI",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Dolphins",
                             "away_team_name": "Cardinals",
                             "game_key": "2024_08_ARI_MIA"
@@ -1188,7 +1188,7 @@
                             "home_team": "NE",
                             "away_team": "NYJ",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "preferred",
                             "home_team_name": "Patriots",
                             "away_team_name": "Jets",
                             "game_key": "2024_08_NYJ_NE"
@@ -1197,7 +1197,7 @@
                             "home_team": "TB",
                             "away_team": "ATL",
                             "game_time": "10:00 AM",
-                            "status": "no_data",
+                            "status": "secondary",
                             "home_team_name": "Buccaneers",
                             "away_team_name": "Falcons",
                             "game_key": "2024_08_ATL_TB"

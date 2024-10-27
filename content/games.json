@@ -1,6 +1,6 @@
 {
     "year": 2024,
-    "current_week": 7,
+    "current_week": 8,
     "weeks": [
         {
             "week": 1,
@@ -1120,7 +1120,7 @@
                             "home_team": "LA",
                             "away_team": "MIN",
                             "game_time": "5:15 PM",
-                            "status": "no_data",
+                            "status": "discarded_rank",
                             "home_team_name": "Rams",
                             "away_team_name": "Vikings",
                             "game_key": "2024_08_MIN_LA"

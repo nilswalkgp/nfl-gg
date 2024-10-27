@@ -37,4 +37,9 @@ jobs:
 
       - name: Run Python script
         run: python rank/rank.py
-
+      
+      - name: Upload json artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: games
+          path: games.json

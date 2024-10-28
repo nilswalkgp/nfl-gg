@@ -355,9 +355,9 @@ if __name__ == '__main__':
 
     final_ouput['current_week'] = latest_week
 
-    f = open("games.json", "w")
+    f = open("content/games.json", "w")
     f.write(json.dumps(final_ouput, indent=4))
     f.close()
-    f = open("broadcast_map.json", "w")
+    f = open("content/broadcast_map.json", "w")
     f.write(json.dumps(broadcast_map, indent=4))
     f.close()

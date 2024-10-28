@@ -358,6 +358,6 @@ if __name__ == '__main__':
     f = open("content/games.json", "w")
     f.write(json.dumps(final_ouput, indent=4))
     f.close()
-    f = open("content/broadcast_map.json", "w")
-    f.write(json.dumps(broadcast_map, indent=4))
+    #f = open("content/broadcast_map.json", "w")
+    #f.write(json.dumps(broadcast_map, indent=4))
     f.close()

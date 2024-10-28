@@ -1,6 +1,6 @@
 import json
 
-import nfl_data_py as nfl
+import nfl_data_py as nfl # type: ignore
 from datetime import datetime, timedelta
 
 year = 2024

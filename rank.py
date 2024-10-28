@@ -29,7 +29,7 @@ big_score_bonus = 60
 really_close_bonus = 3
 
 min_preferred_rank = 5
-min_rank = 3
+min_rank = 2
 ot_bonus = 1
 
 team_names = {

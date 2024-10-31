@@ -16,6 +16,7 @@
     "CBS6": {"network": "CBS", "booth": ["Tom McCarthy", "Ross Tucker"], "booth_short": ["McCarthy", "Tucker"]},
     "CBS7": {"network": "CBS", "booth": ["Beth Mowins", "Jay Feely"], "booth_short": ["Mowins", "Feely"]},
     "CBS8": {"network": "CBS", "booth": ["Chris Lewis", "Jason McCourty"], "booth_short": ["Lewis", "McCourty"]},
+    "CBS9": {"network": "CBS", "booth": ["Tom McCarthy", "Jay Feely"], "booth_short": ["McCarthy", "Feely"]},
     "ESPN1": {"network": "ESPN", "booth": ["Joe Buck", "Troy Aikman"], "booth_short": ["Buck", "Aikman"]},
     "ESPN2": {"network": "ESPN", "booth": ["Peyton Manning", "Eli Manning"], "booth_short": ["Manning", "Manning"]},
     "ESPN3": {"network": "ESPN", "booth": ["Chris Fowler", "Dan Orlovsky"], "booth_short": ["Fowler", "Orlovsky"]},

@@ -13,6 +13,17 @@ use_cache = False
 no_secondary = False
 print_rank = True
 
+values = {
+    'punt': -0.5,
+    'turnover': 1,
+    'FG': 2,
+    'TD': 5
+}
+
+value_bump_up = 40
+value_bump_down = 30
+value_discard = 20
+
 min_score = 37
 min_ot_score = 35
 max_final_differential = 15
@@ -85,7 +96,48 @@ if __name__ == '__main__':
         'home_score',
         'away_score',
         'game_seconds_remaining',
-        'game_half'
+        'game_half',
+        'drive',
+        'down',
+        'ydsnet',
+        'yards_gained',
+        'pass_length',
+        'air_yards',
+        'yards_after_catch',
+        'interception',
+        'punt_blocked',
+        'fumble',
+        'fumble_lost',
+        'sack',
+        'touchdown',
+        'complete_pass',
+        'passing_yards',
+        'rushing_yards',
+        'posteam',
+        'posteam_type',
+        'defteam',
+        'no_huddle',
+        'qb_scramble',
+        'score_differential_post',
+        'play_type_nfl',
+        'drive_real_start_time',
+        'drive_play_count',
+        'drive_time_of_possession',
+        'drive_first_downs',
+        'drive_inside20',
+        'drive_ended_with_score',
+        'drive_quarter_start',
+        'drive_quarter_end',
+        'drive_yards_penalized',
+        'drive_start_transition',
+        'drive_end_transition',
+        'drive_game_clock_start',
+        'drive_game_clock_end',
+        'drive_start_yard_line',
+        'drive_end_yard_line',
+        'drive_play_id_started',
+        'drive_play_id_ended'
+
     ]
     ydf = nfl.import_pbp_data([year], cols, False, False, use_cache, "", True)
 
@@ -95,17 +147,26 @@ if __name__ == '__main__':
         filter_ = (ydf['sp'] == 1.0) & (ydf['play_type'] != 'extra_point')
 
     wdf = ydf[filter_]
+    all_plays = ydf[(ydf['drive']>=0.0) & (ydf['play_type'] != 'no_play') & (ydf['play_type'] != 'extra_point')]
 
     game_ids = wdf['game_id'].unique()
 
-    gamedf = {}
     gamestats = {}
+    newgamestats = {}
 
     print("Considered games")
     for game_id in game_ids:
         game = wdf[wdf['game_id'] == game_id]
+        full_game = all_plays[all_plays['game_id'] == game_id]
+
         print(game_id)
         gamestats[game_id] = {
+            'value': 0,
+            'drives': 0,
+            'punts': 0,
+            'TDs': 0,
+            'FGs': 0,
+            'turnovers': 0,
             'kickoff': 0,
             'week': 0,
             'final_score': '0 - 0',
@@ -118,7 +179,15 @@ if __name__ == '__main__':
             'biggest_spread': 0,
             'rank': 0,
             'preferred_team_home': False,
-            'preferred_team_away': False
+            'preferred_team_away': False,
+            'home_pass_yds': 0,
+            'away_pass_yds': 0,
+            'home_rush_yds': 0,
+            'away_rush_yds': 0,
+            'fumbles': 0,
+            'fumbles_lost': 0,
+            'sacks': 0,
+            'interceptions': 0,
         }
 
         last_differential = 0
@@ -126,7 +195,41 @@ if __name__ == '__main__':
         tw = 0.0
         twq4 = 0.0
 
+        home_drives_plays = []
+        away_drives_plays = []
+        cur_drive = None
+        drive = None
+
+        for (ndx, play) in full_game.iterrows():
+            if cur_drive != play['drive']:
+                cur_drive = play['drive']
+                drive = []
+                gamestats[game_id]['drives'] += 1
+                if play['posteam_type'] == 'home':
+                    home_drives_plays.append(drive)
+                else:
+                    away_drives_plays.append(drive)
+
+            drive.append(play)
+
+            if play['play_type'] == 'punt':
+                gamestats[game_id]['punts'] += 1
+
+            if play['touchdown'] == 1.0:
+                gamestats[game_id]['TDs'] += 1
+            if play['interception'] == 1.0:
+                gamestats[game_id]['interceptions'] += 1
+                gamestats[game_id]['turnovers'] += 1
+            if play['fumble'] == 1.0:
+                gamestats[game_id]['fumbles'] += 1
+            if play['fumble_lost'] == 1.0:
+                gamestats[game_id]['fumbles_lost'] += 1
+                gamestats[game_id]['turnovers'] += 1
+
         for (ndx, score) in game.iterrows():
+            if score['play_type'] == 'field_goal':
+                gamestats[game_id]['FGs'] += 1
+
             gamestats[game_id]['kickoff'] = datetime.strptime(score['start_time'], '%m/%d/%y, %H:%M:%S')
             gamestats[game_id]['week'] = score['week']
 
@@ -193,6 +296,8 @@ if __name__ == '__main__':
     for (game_id) in gamestats:
         gs = gamestats[game_id]
 
+        gs['value'] = gs['punts']*values['punt'] + gs['turnovers']*values['turnover'] + gs['FGs']*values['FG'] + gs['TDs']*values['TD']
+
         if gs['overtime']:
             if debug:
                 print(f"{game_id} included shortcut: overtime and total_score ({gs['total_score']}) >= min_ot_score ({min_ot_score})")
@@ -257,9 +362,16 @@ if __name__ == '__main__':
         if gs['preferred_team_away']:
             rank += preferred_team_bonus
 
+        if gs['value'] >= value_bump_up:
+            rank = rank + 1
+        if gs['value'] <= value_bump_down:
+            rank = rank - 1
+        if gs['value'] <= value_discard:
+            rank = 0
+
         gs['rank'] = rank
 
-        if rank >= min_preferred_rank:
+        if (rank >= min_preferred_rank):
             preferred_watch[game_id] = rank
             all_games[game_id]['status'] = 'preferred'
         elif rank >= min_rank:
@@ -267,7 +379,7 @@ if __name__ == '__main__':
                 preferred_watch[game_id] = rank
                 all_games[game_id]['status'] = 'preferred'
             else:
-                secondary_watch[game_id] = rank
+                secondary_watch[game_id] = gs['value']
                 all_games[game_id]['status'] = 'secondary'
         else:
             all_games[game_id]['status'] = 'discarded_rank'
@@ -333,7 +445,7 @@ if __name__ == '__main__':
     latest_week = None
 
     for (game_id, game_obj) in all_games:
-        broadcast_map[game_id] = '';
+        broadcast_map[game_id] = ''
 
         day = game_obj['gametime'].strftime("%A, %B %d")
         time = game_obj['gametime'].strftime("%I:%M %p").strip('0')
@@ -355,9 +467,9 @@ if __name__ == '__main__':
 
     final_ouput['current_week'] = latest_week
 
-    f = open("content/games.json", "w")
+    f = open("games.json", "w")
     f.write(json.dumps(final_ouput, indent=4))
     f.close()
-    #f = open("content/broadcast_map.json", "w")
-    #f.write(json.dumps(broadcast_map, indent=4))
+    f = open("broadcast_map.json", "w")
+    f.write(json.dumps(broadcast_map, indent=4))
     f.close()

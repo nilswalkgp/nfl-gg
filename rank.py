@@ -1,4 +1,5 @@
 import json
+import math
 
 import nfl_data_py as nfl # type: ignore
 from datetime import datetime, timedelta
@@ -27,6 +28,7 @@ value_discard = 20
 min_score = 37
 min_ot_score = 35
 max_final_differential = 15
+min_total_yds = 800
 
 preferred_teams = []
 preferred_team_bonus = 1
@@ -161,15 +163,25 @@ if __name__ == '__main__':
 
         print(game_id)
         gamestats[game_id] = {
+            'final_score': '0 - 0',
             'value': 0,
+            'rank': 0,
             'drives': 0,
             'punts': 0,
             'TDs': 0,
             'FGs': 0,
+            'total_yds':0,
+            'home_yds':0,
+            'away_yds':0,
+            'rush_yds':0,
+            'pass_yds':0,
+            'home_pass_yds': 0,
+            'away_pass_yds': 0,
+            'home_rush_yds': 0,
+            'away_rush_yds': 0,
             'turnovers': 0,
             'kickoff': 0,
             'week': 0,
-            'final_score': '0 - 0',
             'total_score': 0,
             'overtime': False,
             'lead_changes': 0,
@@ -177,13 +189,8 @@ if __name__ == '__main__':
             'Q4_scores': 0,
             'final_differential': 0,
             'biggest_spread': 0,
-            'rank': 0,
             'preferred_team_home': False,
             'preferred_team_away': False,
-            'home_pass_yds': 0,
-            'away_pass_yds': 0,
-            'home_rush_yds': 0,
-            'away_rush_yds': 0,
             'fumbles': 0,
             'fumbles_lost': 0,
             'sacks': 0,
@@ -214,6 +221,16 @@ if __name__ == '__main__':
 
             if play['play_type'] == 'punt':
                 gamestats[game_id]['punts'] += 1
+            elif (play['play_type'] == 'pass') & (not math.isnan(play['passing_yards'])):
+                if play['posteam_type'] == 'home':
+                    gamestats[game_id]['home_pass_yds'] += play['passing_yards']
+                else:
+                    gamestats[game_id]['away_pass_yds'] += play['passing_yards']
+            elif (play['play_type'] == 'run') & (not math.isnan(play['rushing_yards'])):
+                if play['posteam_type'] == 'home':
+                    gamestats[game_id]['home_rush_yds'] += play['rushing_yards']
+                else:
+                    gamestats[game_id]['away_rush_yds'] += play['rushing_yards']
 
             if play['touchdown'] == 1.0:
                 gamestats[game_id]['TDs'] += 1
@@ -297,6 +314,11 @@ if __name__ == '__main__':
         gs = gamestats[game_id]
 
         gs['value'] = gs['punts']*values['punt'] + gs['turnovers']*values['turnover'] + gs['FGs']*values['FG'] + gs['TDs']*values['TD']
+        gs['home_yds'] = gs['home_rush_yds'] + gs['home_pass_yds']
+        gs['away_yds'] = gs['away_rush_yds'] + gs['away_pass_yds']
+        gs['pass_yds'] = gs['home_pass_yds'] + gs['away_pass_yds']
+        gs['rush_yds'] = gs['home_rush_yds'] + gs['away_rush_yds']
+        gs['total_yds'] = gs['home_yds'] + gs['away_yds']
 
         if gs['overtime']:
             if debug:
@@ -371,15 +393,15 @@ if __name__ == '__main__':
 
         gs['rank'] = rank
 
-        if (rank >= min_preferred_rank):
+        if rank >= min_preferred_rank:
             preferred_watch[game_id] = rank
             all_games[game_id]['status'] = 'preferred'
-        elif rank >= min_rank:
+        elif (rank >= min_rank) | (gs['total_yds'] >= min_total_yds):
             if no_secondary:
                 preferred_watch[game_id] = rank
                 all_games[game_id]['status'] = 'preferred'
             else:
-                secondary_watch[game_id] = gs['value']
+                secondary_watch[game_id] = gs['total_yds']
                 all_games[game_id]['status'] = 'secondary'
         else:
             all_games[game_id]['status'] = 'discarded_rank'

@@ -74,7 +74,7 @@
       {{ end }}
 
       {{ $tc := "text-slate-700" }}
-      {{ if $game.gotw }}
+      {{ if eq $game.gotw "true" }}
         {{ $tc := "text-green-600" }}
       {{ end }}
 
@@ -85,7 +85,7 @@
       <div class="p-2 grid grid-flow-col auto-cols-fr shadow-md rounded-sm {{ $bg }}">
         <div class="flex flex-col font-light"><div class="text-sm font-semibold">{{ $game.game_time }}<span class="align-top font-light text-xs"> PDT</span></div><div class="text-sm">{{ $broadcast_team.network }}</div></div>
         <div class="flex flex-row">
-          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/> <span class="m-2 text-green-600">@</span> <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
+          <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.away_team }}.svg"/> <span class="m-2 {{ $tc }}">@</span> <img width="40" height="40" src="{{ site.BaseURL }}images/{{ $game.home_team }}.svg"/>
         </div>
         <div class="flex flex-col visibledevice">
           {{ range $announcer := $broadcast_team.booth_short}}

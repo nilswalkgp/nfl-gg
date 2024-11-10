@@ -461,6 +461,17 @@ if __name__ == '__main__':
     all_games = sorted(all_games.items(), key=lambda x: x[1]['gametime'])
     broadcast_map = {}
 
+    gotw = {}
+
+    for (game_id, rank) in preferred_watch:
+        gs = gamestats[game_id]
+        if gs['week'] not in gotw:
+            gotw[gs['week']] = game_id
+        elif gs['rank'] > gamestats[gotw[gs['week']]]['rank']:
+            gotw[gs['week']] = game_id
+        elif (gs['rank'] == gamestats[gotw[gs['week']]]['rank']) & (gs['total_yds'] > gamestats[gotw[gs['week']]]['total_yds']):
+            gotw[gs['week']] = game_id
+
     final_ouput = {'year': year, 'current_week': 0, 'weeks': []}
     current_week = None
     current_day = None
@@ -471,7 +482,6 @@ if __name__ == '__main__':
 
         day = game_obj['gametime'].strftime("%A, %B %d")
         time = game_obj['gametime'].strftime("%I:%M %p").strip('0')
-
 
         if current_week != game_obj['week']:
             current_week = game_obj['week']
@@ -484,11 +494,23 @@ if __name__ == '__main__':
         if (game_obj['status'] != 'no_data') & (latest_week != game_obj['week']):
             latest_week = game_obj['week']
 
+        gotw_flag = False
+        if current_week in gotw:
+            gotw_flag = (gotw[current_week] == game_id)
+
         final_ouput['weeks'][-1]['days'][-1]['games'].append({'home_team': game_obj['home_team'], 'away_team': game_obj['away_team'], 'game_time': time, 'status': game_obj['status'],
-                                                              'home_team_name': team_names[game_obj['home_team']], 'away_team_name': team_names[game_obj['away_team']], 'game_key': game_id})
+                                                              'home_team_name': team_names[game_obj['home_team']], 'away_team_name': team_names[game_obj['away_team']], 'game_key': game_id
+                                                              ,'gotw': gotw_flag})
 
     final_ouput['current_week'] = latest_week
 
     f = open("content/games.json", "w")
     f.write(json.dumps(final_ouput, indent=4))
     f.close()
+
+    gotw = sorted(gotw.items(), key=operator.itemgetter(1))
+
+    print("\nGames of The Week")
+    for (week, game_id) in gotw:
+        fn = friendly_names[game_id]
+        print(f"Week {week}: {fn}")

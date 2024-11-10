@@ -72,6 +72,14 @@
         {{ $day_ouput = false }}
       {{ end }}
 
+<<<<<<< HEAD
+=======
+      {{ $tc := "text-slate-700" }}
+      {{ if eq $game.gotw true }}
+        {{ $tc := "text-green-600" }}
+      {{ end }}
+
+>>>>>>> 143dbcce2209de0afee9f63fce677957a3322879
       {{ $broadcast_key := index $broadcast_map $game.game_key }}
       {{ $broadcast_team := index $broadcast_teams $broadcast_key }}
 

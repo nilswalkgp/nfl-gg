@@ -74,6 +74,9 @@
       {{ end }}
 
       {{ $tc := "text-slate-700" }}
+      {{ if $game.gotw }}
+        {{ $tc := "text-green-600" }}
+      {{ end }}
 
       {{ $broadcast_key := index $broadcast_map $game.game_key }}
       {{ $broadcast_team := index $broadcast_teams $broadcast_key }}

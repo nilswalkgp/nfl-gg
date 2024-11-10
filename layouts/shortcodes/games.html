@@ -43,10 +43,10 @@
             <summary class="hover:text-orange-500"><strong>Week {{ $week.week }}</strong></summary>
   {{ range $day := $week.days}}
     {{ $day_ouput := true }}
-    
-    {{ $tc := "text-slate-700" }}
 
     {{ range $game := $day.games}}
+      {{ $tc := "text-slate-700" }}
+          
       {{ if eq $game.status "preferred" }}
         {{ $bg = "shadow-green-600" }}
       {{ else if eq $game.status "secondary" }}

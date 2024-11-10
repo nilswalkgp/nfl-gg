@@ -498,9 +498,11 @@ if __name__ == '__main__':
         if current_week in gotw:
             gotw_flag = (gotw[current_week] == game_id)
 
+        if gotw_flag:
+            game_obj['status'] = 'gotw'
+
         final_ouput['weeks'][-1]['days'][-1]['games'].append({'home_team': game_obj['home_team'], 'away_team': game_obj['away_team'], 'game_time': time, 'status': game_obj['status'],
-                                                              'home_team_name': team_names[game_obj['home_team']], 'away_team_name': team_names[game_obj['away_team']], 'game_key': game_id
-                                                              ,'gotw': gotw_flag})
+                                                              'home_team_name': team_names[game_obj['home_team']], 'away_team_name': team_names[game_obj['away_team']], 'game_key': game_id})
 
     final_ouput['current_week'] = latest_week
 

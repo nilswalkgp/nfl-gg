@@ -8,6 +8,8 @@
     "FOX5": {"network": "FOX", "booth": ["Jason Benetti", "Mark Schlereth"], "booth_short": ["Benetti", "Schlereth"]},
     "FOX6": {"network": "FOX", "booth": ["Kevin Kugler", "Daryl Johnston"], "booth_short": ["Kugler", "Johnston"]},
     "FOX7": {"network": "FOX", "booth": ["Tim Brando", "Matt Millen"], "booth_short": ["Brando", "Millen"]},
+    "FOX8": {"network": "FOX", "booth": ["Adam Amin", "Mark Sanchez"], "booth_short": ["Amin", "Sanchez"]},
+    "FOX9": {"network": "FOX", "booth": ["Joe Davis", "Greg Olsen"], "booth_short": ["Davis", "Olsen"]},
     "CBS1": {"network": "CBS", "booth": ["Jim Nantz", "Tony Romo"], "booth_short": ["Nantz", "Romo"]},
     "CBS2": {"network": "CBS", "booth": ["Ian Eagle", "Charles Davis"], "booth_short": ["Eagle", "Davis"]},
     "CBS3": {"network": "CBS", "booth": ["Kevin Harlan", "Trent Green"], "booth_short": ["Harlan", "Green"]},

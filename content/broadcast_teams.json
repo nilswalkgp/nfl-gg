@@ -1,6 +1,7 @@
 {
     "NBC1": {"network": "NBC", "booth": ["Mike Tirico", "Cris Collinsworth"], "booth_short": ["Tirico", "Collinsworth"]},
     "NBC2": {"network": "NBC", "booth": ["Noah Eagle", "Todd Blackledge"], "booth_short": ["Eagle", "Blackledge"]},
+    "NBC3": {"network": "NBC", "booth": ["Mike Tirico", "Jason Garrett"], "booth_short": ["Tirico", "Garrett"]},
     "FOX1": {"network": "FOX", "booth": ["Kevin Burkhardt", "Tom Brady"], "booth_short": ["Burkhardt", "Brady"]},
     "FOX2": {"network": "FOX", "booth": ["Adam Amin", "Greg Olsen"], "booth_short": ["Amin", "Olsen"]},
     "FOX3": {"network": "FOX", "booth": ["Kenny Albert", "Jonathan Vilma"], "booth_short": ["Albert", "Vilma"]},
@@ -10,6 +11,7 @@
     "FOX7": {"network": "FOX", "booth": ["Tim Brando", "Matt Millen"], "booth_short": ["Brando", "Millen"]},
     "FOX8": {"network": "FOX", "booth": ["Adam Amin", "Mark Sanchez"], "booth_short": ["Amin", "Sanchez"]},
     "FOX9": {"network": "FOX", "booth": ["Joe Davis", "Greg Olsen"], "booth_short": ["Davis", "Olsen"]},
+    "FOX10": {"network": "FOX", "booth": ["Chris Myers", "Mark Schlereth"], "booth_short": ["Myers", "Schlereth"]},
     "CBS1": {"network": "CBS", "booth": ["Jim Nantz", "Tony Romo"], "booth_short": ["Nantz", "Romo"]},
     "CBS2": {"network": "CBS", "booth": ["Ian Eagle", "Charles Davis"], "booth_short": ["Eagle", "Davis"]},
     "CBS3": {"network": "CBS", "booth": ["Kevin Harlan", "Trent Green"], "booth_short": ["Harlan", "Green"]},

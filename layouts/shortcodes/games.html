@@ -37,7 +37,7 @@
 
 {{ range $week := $data.weeks }}
   {{- $open := eq $data.current_week $week.week | default false -}}
-  <div class="flex flex-col m-1">
+  <div class="flex flex-col m-1 width:500">
     <div>
         <details class="py-1 justify-center max-w-sm mx-auto flex items-center text-lg text-slate-700" {{ if $open }}open{{ end }}>
             <summary class="hover:text-orange-500"><strong>Week {{ $week.week }}</strong></summary>

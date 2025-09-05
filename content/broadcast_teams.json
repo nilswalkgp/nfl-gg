@@ -15,7 +15,7 @@
     "CBS1": {"network": "CBS", "booth": ["Jim Nantz", "Tony Romo"], "booth_short": ["Nantz", "Romo"]},
     "CBS2": {"network": "CBS", "booth": ["Ian Eagle", "Charles Davis"], "booth_short": ["Eagle", "Davis"]},
     "CBS3": {"network": "CBS", "booth": ["Kevin Harlan", "Trent Green"], "booth_short": ["Harlan", "Green"]},
-    "CBS4": {"network": "CBS", "booth": ["Andrew Catalon", "Tiki Barber"], "booth_short": ["Catalon", "Barber"]},
+    "CBS4": {"network": "CBS", "booth": ["Andrew Catalon", "Charles Davis"], "booth_short": ["Catalon", "Davis"]},
     "CBS5": {"network": "CBS", "booth": ["Spero Dedes", "Adam Archuleta"], "booth_short": ["Dedes", "Archuleta"]},
     "CBS6": {"network": "CBS", "booth": ["Tom McCarthy", "Ross Tucker"], "booth_short": ["McCarthy", "Tucker"]},
     "CBS7": {"network": "CBS", "booth": ["Beth Mowins", "Jay Feely"], "booth_short": ["Mowins", "Feely"]},
@@ -26,5 +26,6 @@
     "ESPN3": {"network": "ESPN", "booth": ["Chris Fowler", "Dan Orlovsky"], "booth_short": ["Fowler", "Orlovsky"]},
     "AMZ1": {"network": "Prime", "booth": ["Al Michaels", "Kirk Herbstreit"], "booth_short": ["Michaels", "Herbstreit"]},
     "NFL1": {"network": "NFLN", "booth": ["Rich Eisen", "Kurt Warner"], "booth_short": ["Eisen", "Warner"]},
-    "NFL2": {"network": "NFLN", "booth": ["Chris Rose", "Joe Thomas"], "booth_short": ["Rose", "Thomas"]}
+    "NFL2": {"network": "NFLN", "booth": ["Chris Rose", "Joe Thomas"], "booth_short": ["Rose", "Thomas"]},
+    "UNK": {"network": "UNK", "booth": ["Some guy", "Other guy"], "booth_short": ["Guy 1", "Guy 2"]}
 }

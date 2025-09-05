@@ -4,7 +4,7 @@ import math
 import nfl_data_py as nfl # type: ignore
 from datetime import datetime, timedelta
 
-year = 2024
+year = 2025
 week = 0
 debug = False
 discarded = False

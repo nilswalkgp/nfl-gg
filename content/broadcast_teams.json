@@ -27,5 +27,5 @@
     "AMZ1": {"network": "Prime", "booth": ["Al Michaels", "Kirk Herbstreit"], "booth_short": ["Michaels", "Herbstreit"]},
     "NFL1": {"network": "NFLN", "booth": ["Rich Eisen", "Kurt Warner"], "booth_short": ["Eisen", "Warner"]},
     "NFL2": {"network": "NFLN", "booth": ["Chris Rose", "Joe Thomas"], "booth_short": ["Rose", "Thomas"]},
-    "UNK": {"network": "UNK", "booth": ["Some guy", "Other guy"], "booth_short": ["Guy 1", "Guy 2"]}
+    "UNK": {"network": "UNK", "booth": ["Some guy", "Other guy"], "booth_short": ["Todd", "Steve"]}
 }

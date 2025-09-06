@@ -13,7 +13,7 @@
     "FOX9": {"network": "FOX", "booth": ["Joe Davis", "Greg Olsen"], "booth_short": ["Davis", "Olsen"]},
     "FOX10": {"network": "FOX", "booth": ["Chris Myers", "Mark Schlereth"], "booth_short": ["Myers", "Schlereth"]},
     "CBS1": {"network": "CBS", "booth": ["Jim Nantz", "Tony Romo"], "booth_short": ["Nantz", "Romo"]},
-    "CBS2": {"network": "CBS", "booth": ["Ian Eagle", "Charles Davis"], "booth_short": ["Eagle", "Davis"]},
+    "CBS2": {"network": "CBS", "booth": ["Ian Eagle", "JJ Watt"], "booth_short": ["Eagle", "Watt"]},
     "CBS3": {"network": "CBS", "booth": ["Kevin Harlan", "Trent Green"], "booth_short": ["Harlan", "Green"]},
     "CBS4": {"network": "CBS", "booth": ["Andrew Catalon", "Charles Davis"], "booth_short": ["Catalon", "Davis"]},
     "CBS5": {"network": "CBS", "booth": ["Spero Dedes", "Adam Archuleta"], "booth_short": ["Dedes", "Archuleta"]},

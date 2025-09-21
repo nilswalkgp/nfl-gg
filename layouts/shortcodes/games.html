@@ -53,6 +53,7 @@
         {{ $bg = "shadow-yellow-600" }}
       {{ else if eq $game.status "gotw" }}
         {{ $bg = "shadow-green-600" }}
+        {{ $tc = "text-green-600" }}
       {{ else if eq $game.status "discarded_score" }}
         {{ continue }}
         {{ $bg = "shadow-red-600" }}

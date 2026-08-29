@@ -1,3 +1,7 @@
 /node_modules
 
 .hugo_build.lock
+content/nfl-gg.code-workspace
+.DS_Store
+.DS_Store
+.DS_Store
